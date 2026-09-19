@@ -1,0 +1,95 @@
+// ============================================================================
+// ParkSync - Amazon Cedar Schema Definition (Step 6: Admin Verification Lifecycle)
+// ============================================================================
+
+namespace ParkSync {
+    // Group entity representing Cognito Groups (e.g. "admin", "hosts")
+    entity Group;
+
+    // Principal entity representing an authenticated identity (Cognito claims.sub)
+    entity User in [Group];
+
+    // Resource entity representing a parking space listing
+    entity Listing = {
+        owner: User
+    };
+
+    // Host actions
+    action createListing appliesTo {
+        principal: [User],
+        resource: [Listing]
+    };
+
+    action viewListing appliesTo {
+        principal: [User],
+        resource: [Listing]
+    };
+
+    action updateListing appliesTo {
+        principal: [User],
+        resource: [Listing]
+    };
+
+    action deleteListing appliesTo {
+        principal: [User],
+        resource: [Listing]
+    };
+
+    // Admin review actions
+    action viewPendingListings appliesTo {
+        principal: [User],
+        resource: [Listing]
+    };
+
+    action reviewListing appliesTo {
+        principal: [User],
+        resource: [Listing]
+    };
+
+    action approveListing appliesTo {
+        principal: [User],
+        resource: [Listing]
+    };
+
+    action rejectListing appliesTo {
+        principal: [User],
+        resource: [Listing]
+    };
+
+    // Resource entity representing a parking reservation/booking
+    entity Booking = {
+        host: User,
+        renter: User
+    };
+
+    // Host booking management actions
+    action viewBooking appliesTo {
+        principal: [User],
+        resource: [Booking]
+    };
+
+    action cancelBooking appliesTo {
+        principal: [User],
+        resource: [Booking]
+    };
+
+    action completeBooking appliesTo {
+        principal: [User],
+        resource: [Booking]
+    };
+
+    // Resource entity representing a host account
+    entity Host = {
+        owner: User
+    };
+
+    action viewHost appliesTo {
+        principal: [User],
+        resource: [Host]
+    };
+
+    action verifyHost appliesTo {
+        principal: [User],
+        resource: [Host]
+    };
+}

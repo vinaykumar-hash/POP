@@ -1,0 +1,591 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "ParkWise — Complete Serverless Infrastructure (Cognito, S3, DynamoDB, API Gateway HTTP API, and Lambda)"
+
+Parameters:
+  Environment:
+    Type: String
+    Default: dev
+    AllowedValues:
+      - dev
+      - staging
+      - prod
+    Description: "Deployment environment stage"
+
+Resources:
+  # ============================================================================
+  # 1. AWS COGNITO — AUTHENTICATION & USER ROLES
+  # ============================================================================
+  ParkWiseUserPool:
+    Type: AWS::Cognito::UserPool
+    Properties:
+      UserPoolName: !Sub "ParkWise-UserPool-${Environment}"
+      UsernameAttributes:
+        - email
+      AutoVerifiedAttributes:
+        - email
+      Policies:
+        PasswordPolicy:
+          MinimumLength: 8
+          RequireLowercase: true
+          RequireNumbers: true
+          RequireSymbols: false
+          RequireUppercase: true
+      Schema:
+        - Name: email
+          Required: true
+          Mutable: true
+        - Name: name
+          Required: false
+          Mutable: true
+        - Name: preferred_role
+          AttributeDataType: String
+          Mutable: true
+      UserPoolTags:
+        Project: ParkWise
+        Environment: !Ref Environment
+
+  ParkWiseUserPoolClient:
+    Type: AWS::Cognito::UserPoolClient
+    Properties:
+      ClientName: !Sub "ParkWise-WebClient-${Environment}"
+      UserPoolId: !Ref ParkWiseUserPool
+      GenerateSecret: false
+      ExplicitAuthFlows:
+        - ALLOW_USER_SRP_AUTH
+        - ALLOW_REFRESH_TOKEN_AUTH
+        - ALLOW_USER_PASSWORD_AUTH
+      PreventUserExistenceErrors: ENABLED
+      AccessTokenValidity: 24
+      IdTokenValidity: 24
+      TokenValidityUnits:
+        AccessToken: hours
+        IdToken: hours
+
+  DriverUserGroup:
+    Type: AWS::Cognito::UserPoolGroup
+    Properties:
+      GroupName: Drivers
+      Description: "Registered drivers discovering and navigating to parking spaces"
+      UserPoolId: !Ref ParkWiseUserPool
+      Precedence: 10
+
+  HostUserGroup:
+    Type: AWS::Cognito::UserPoolGroup
+    Properties:
+      GroupName: Hosts
+      Description: "Hosts listing private parking spots for rent"
+      UserPoolId: !Ref ParkWiseUserPool
+      Precedence: 20
+
+  AdminUserGroup:
+    Type: AWS::Cognito::UserPoolGroup
+    Properties:
+      GroupName: Admins
+      Description: "ParkWise platform administrators"
+      UserPoolId: !Ref ParkWiseUserPool
+      Precedence: 1
+
+  # ============================================================================
+  # 2. AWS S3 — STORAGE FOR PARKING PHOTOS & HOST DOCUMENTS
+  # ============================================================================
+  ParkWiseMediaBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub "parkwise-media-${Environment}-${AWS::AccountId}"
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
+      CorsConfiguration:
+        CorsRules:
+          - AllowedHeaders:
+              - "*"
+            AllowedMethods:
+              - GET
+              - PUT
+              - HEAD
+            AllowedOrigins:
+              - "*"
+            MaxAge: 3600
+      Tags:
+        - Key: Project
+          Value: ParkWise
+        - Key: Environment
+          Value: !Ref Environment
+
+  # ============================================================================
+  # 3. AWS DYNAMODB — LOCATIONS, TIME-SERIES EVENTS, AND BOOKINGS
+  # ============================================================================
+  ParkingLocationsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: !Sub "ParkWise-Locations-${Environment}"
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: id
+          AttributeType: S
+        - AttributeName: source
+          AttributeType: S
+        - AttributeName: type
+          AttributeType: S
+        - AttributeName: createdAt
+          AttributeType: S
+        - AttributeName: pricePerHour
+          AttributeType: N
+      KeySchema:
+        - AttributeName: id
+          KeyType: HASH
+      GlobalSecondaryIndexes:
+        - IndexName: BySourceIndex
+          KeySchema:
+            - AttributeName: source
+              KeyType: HASH
+            - AttributeName: createdAt
+              KeyType: RANGE
+          Projection:
+            ProjectionType: ALL
+        - IndexName: ByTypeIndex
+          KeySchema:
+            - AttributeName: type
+              KeyType: HASH
+            - AttributeName: pricePerHour
+              KeyType: RANGE
+          Projection:
+            ProjectionType: ALL
+      PointInTimeRecoverySpecification:
+        PointInTimeRecoveryEnabled: true
+      Tags:
+        - Key: Project
+          Value: ParkWise
+        - Key: Environment
+          Value: !Ref Environment
+
+  ParkingEventsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: !Sub "ParkWise-Events-${Environment}"
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: parkingId
+          AttributeType: S
+        - AttributeName: eventId
+          AttributeType: S
+        - AttributeName: timestamp
+          AttributeType: S
+      KeySchema:
+        - AttributeName: parkingId
+          KeyType: HASH
+        - AttributeName: eventId
+          KeyType: RANGE
+      GlobalSecondaryIndexes:
+        - IndexName: ByTimestampIndex
+          KeySchema:
+            - AttributeName: parkingId
+              KeyType: HASH
+            - AttributeName: timestamp
+              KeyType: RANGE
+          Projection:
+            ProjectionType: ALL
+      TimeToLiveSpecification:
+        AttributeName: expiresAt
+        Enabled: true
+      Tags:
+        - Key: Project
+          Value: ParkWise
+        - Key: Environment
+          Value: !Ref Environment
+
+  # Future Rent Parking reservations table
+  ParkingBookingsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: !Sub "ParkWise-Bookings-${Environment}"
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: bookingId
+          AttributeType: S
+        - AttributeName: userId
+          AttributeType: S
+        - AttributeName: parkingId
+          AttributeType: S
+        - AttributeName: createdAt
+          AttributeType: S
+      KeySchema:
+        - AttributeName: bookingId
+          KeyType: HASH
+      GlobalSecondaryIndexes:
+        - IndexName: ByUserIndex
+          KeySchema:
+            - AttributeName: userId
+              KeyType: HASH
+            - AttributeName: createdAt
+              KeyType: RANGE
+          Projection:
+            ProjectionType: ALL
+        - IndexName: ByParkingIndex
+          KeySchema:
+            - AttributeName: parkingId
+              KeyType: HASH
+            - AttributeName: createdAt
+              KeyType: RANGE
+          Projection:
+            ProjectionType: ALL
+      Tags:
+        - Key: Project
+          Value: ParkWise
+        - Key: Environment
+          Value: !Ref Environment
+
+  # ============================================================================
+  # 4. IAM ROLE FOR SERVERLESS LAMBDA FUNCTIONS
+  # ============================================================================
+  LambdaExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub "ParkWise-LambdaExecutionRole-${Environment}"
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - lambda.amazonaws.com
+            Action:
+              - sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: DynamoDBTableAccess
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - dynamodb:GetItem
+                  - dynamodb:PutItem
+                  - dynamodb:UpdateItem
+                  - dynamodb:DeleteItem
+                  - dynamodb:Query
+                  - dynamodb:Scan
+                  - dynamodb:BatchWriteItem
+                  - dynamodb:BatchGetItem
+                Resource:
+                  - !GetAtt ParkingLocationsTable.Arn
+                  - !Sub "${ParkingLocationsTable.Arn}/index/*"
+                  - !GetAtt ParkingEventsTable.Arn
+                  - !Sub "${ParkingEventsTable.Arn}/index/*"
+                  - !GetAtt ParkingBookingsTable.Arn
+                  - !Sub "${ParkingBookingsTable.Arn}/index/*"
+        - PolicyName: S3MediaBucketAccess
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - s3:GetObject
+                  - s3:PutObject
+                  - s3:PutObjectAcl
+                  - s3:DeleteObject
+                Resource:
+                  - !Sub "arn:aws:s3:::${ParkWiseMediaBucket}/*"
+        - PolicyName: BedrockInvokeAccess
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - bedrock:InvokeModel
+                  - bedrock:InvokeModelWithResponseStream
+                Resource:
+                  - "arn:aws:bedrock:*::foundation-model/*"
+
+  # ============================================================================
+  # 5. AWS API GATEWAY HTTP API (v2)
+  # ============================================================================
+  ParkWiseHttpApi:
+    Type: AWS::ApiGatewayV2::Api
+    Properties:
+      Name: !Sub "ParkWise-HttpApi-${Environment}"
+      ProtocolType: HTTP
+      CorsConfiguration:
+        AllowOrigins:
+          - "*"
+        AllowMethods:
+          - GET
+          - POST
+          - PUT
+          - DELETE
+          - OPTIONS
+        AllowHeaders:
+          - "*"
+        MaxAge: 3600
+
+  HttpApiStage:
+    Type: AWS::ApiGatewayV2::Stage
+    Properties:
+      ApiId: !Ref ParkWiseHttpApi
+      StageName: !Ref Environment
+      AutoDeploy: true
+
+  CognitoJwtAuthorizer:
+    Type: AWS::ApiGatewayV2::Authorizer
+    Properties:
+      ApiId: !Ref ParkWiseHttpApi
+      AuthorizerType: JWT
+      IdentitySource:
+        - "$request.header.Authorization"
+      Name: CognitoAuthorizer
+      JwtConfiguration:
+        Audience:
+          - !Ref ParkWiseUserPoolClient
+        Issuer: !Sub "https://cognito-idp.${AWS::Region}.amazonaws.com/${ParkWiseUserPool}"
+
+  # ============================================================================
+  # 6. SERVERLESS LAMBDA FUNCTIONS
+  # ============================================================================
+  SearchParkingFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub "ParkWise-SearchParking-${Environment}"
+      Runtime: nodejs20.x
+      Handler: searchParking.handler
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Timeout: 10
+      MemorySize: 512
+      Environment:
+        Variables:
+          TABLE_LOCATIONS: !Ref ParkingLocationsTable
+          NODE_ENV: !Ref Environment
+      Code:
+        ZipFile: |
+          exports.handler = async (event) => {
+            return {
+              statusCode: 200,
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ message: "Search Parking Lambda active", locations: [] })
+            };
+          };
+
+  GetParkingDetailsFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub "ParkWise-GetParkingDetails-${Environment}"
+      Runtime: nodejs20.x
+      Handler: getParkingDetails.handler
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Timeout: 10
+      MemorySize: 256
+      Environment:
+        Variables:
+          TABLE_LOCATIONS: !Ref ParkingLocationsTable
+          TABLE_EVENTS: !Ref ParkingEventsTable
+      Code:
+        ZipFile: |
+          exports.handler = async (event) => {
+            return {
+              statusCode: 200,
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ message: "Parking Details Lambda active" })
+            };
+          };
+
+  ReportParkingEventFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub "ParkWise-ReportParkingEvent-${Environment}"
+      Runtime: nodejs20.x
+      Handler: reportParkingEvent.handler
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Timeout: 10
+      MemorySize: 256
+      Environment:
+        Variables:
+          TABLE_LOCATIONS: !Ref ParkingLocationsTable
+          TABLE_EVENTS: !Ref ParkingEventsTable
+      Code:
+        ZipFile: |
+          exports.handler = async (event) => {
+            return {
+              statusCode: 201,
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ message: "Report Event Lambda active" })
+            };
+          };
+
+  GetUploadUrlFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub "ParkWise-GetUploadUrl-${Environment}"
+      Runtime: nodejs20.x
+      Handler: getUploadUrl.handler
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Timeout: 10
+      MemorySize: 256
+      Environment:
+        Variables:
+          MEDIA_BUCKET: !Ref ParkWiseMediaBucket
+      Code:
+        ZipFile: |
+          exports.handler = async (event) => {
+            return {
+              statusCode: 200,
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ uploadUrl: "mock-url", key: "mock-key" })
+            };
+          };
+
+  # ============================================================================
+  # 7. AWS EVENTBRIDGE & SQS ASYNCHRONOUS ARCHITECTURE (PHASE 9)
+  # ============================================================================
+  ParkWiseEventBus:
+    Type: AWS::Events::EventBus
+    Properties:
+      Name: !Sub "ParkWise-EventBus-${Environment}"
+      Tags:
+        - Key: Project
+          Value: ParkWise
+        - Key: Environment
+          Value: !Ref Environment
+
+  AggregationDLQ:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: !Sub "ParkWise-AggregationDLQ-${Environment}"
+      MessageRetentionPeriod: 1209600 # 14 days
+
+  AggregationQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: !Sub "ParkWise-AggregationQueue-${Environment}"
+      VisibilityTimeout: 60
+      RedrivePolicy:
+        deadLetterTargetArn: !GetAtt AggregationDLQ.Arn
+        maxReceiveCount: 5
+
+  EventBridgeToSqsPolicy:
+    Type: AWS::SQS::QueuePolicy
+    Properties:
+      Queues:
+        - !Ref AggregationQueue
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: events.amazonaws.com
+            Action: sqs:SendMessage
+            Resource: !GetAtt AggregationQueue.Arn
+            Condition:
+              ArnEquals:
+                aws:SourceArn: !GetAtt AvailabilityAggregationRule.Arn
+
+  AvailabilityAggregationRule:
+    Type: AWS::Events::Rule
+    Properties:
+      Name: !Sub "ParkWise-AvailabilityRule-${Environment}"
+      Description: "Routes parking availability signals to SQS for asynchronous aggregation"
+      EventBusName: !Ref ParkWiseEventBus
+      EventPattern:
+        source:
+          - "parkwise.parking"
+        detail-type:
+          - "ParkingAvailabilityReported"
+          - "DriverParked"
+          - "DriverDeparted"
+      State: ENABLED
+      Targets:
+        - Arn: !GetAtt AggregationQueue.Arn
+          Id: "AggregationQueueTarget"
+
+  # Table for Driver Spot Alerts (e.g. Notify when Indiranagar spot opens)
+  ParkWiseAlertsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: !Sub "ParkWise-Alerts-${Environment}"
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: parkingId
+          AttributeType: S
+        - AttributeName: alertId
+          AttributeType: S
+      KeySchema:
+        - AttributeName: parkingId
+          KeyType: HASH
+        - AttributeName: alertId
+          KeyType: RANGE
+      TimeToLiveSpecification:
+        AttributeName: expiresAt
+        Enabled: true
+      Tags:
+        - Key: Project
+          Value: ParkWise
+        - Key: Environment
+          Value: !Ref Environment
+
+  AvailabilityAggregatorFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub "ParkWise-AvailabilityAggregator-${Environment}"
+      Runtime: nodejs20.x
+      Handler: availabilityAggregator.handler
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Timeout: 30
+      MemorySize: 256
+      Environment:
+        Variables:
+          TABLE_LOCATIONS: !Ref ParkingLocationsTable
+          TABLE_EVENTS: !Ref ParkingEventsTable
+          TABLE_ALERTS: !Ref ParkWiseAlertsTable
+      Code:
+        ZipFile: |
+          exports.handler = async (event) => {
+            return { statusCode: 200, body: "Aggregator processed" };
+          };
+
+Outputs:
+  UserPoolId:
+    Description: "AWS Cognito User Pool ID"
+    Value: !Ref ParkWiseUserPool
+    Export:
+      Name: !Sub "ParkWise-UserPoolId-${Environment}"
+
+  UserPoolClientId:
+    Description: "AWS Cognito Web Client ID"
+    Value: !Ref ParkWiseUserPoolClient
+    Export:
+      Name: !Sub "ParkWise-UserPoolClientId-${Environment}"
+
+  MediaBucketName:
+    Description: "AWS S3 Media Bucket Name"
+    Value: !Ref ParkWiseMediaBucket
+    Export:
+      Name: !Sub "ParkWise-MediaBucket-${Environment}"
+
+  HttpApiUrl:
+    Description: "API Gateway Base URL"
+    Value: !Sub "https://${ParkWiseHttpApi}.execute-api.${AWS::Region}.amazonaws.com/${Environment}"
+    Export:
+      Name: !Sub "ParkWise-HttpApiUrl-${Environment}"
+
+  EventBusArn:
+    Description: "EventBridge Custom EventBus ARN"
+    Value: !GetAtt ParkWiseEventBus.Arn
+    Export:
+      Name: !Sub "ParkWise-EventBusArn-${Environment}"
+
+  AggregationQueueUrl:
+    Description: "SQS Aggregation Queue URL"
+    Value: !Ref AggregationQueue
+
+  LocationsTableName:
+    Description: "DynamoDB Parking Locations Table"
+    Value: !Ref ParkingLocationsTable
+
+  EventsTableName:
+    Description: "DynamoDB Parking Events Table"
+    Value: !Ref ParkingEventsTable
+
+  AlertsTableName:
+    Description: "DynamoDB Parking Alerts Table"
+    Value: !Ref ParkWiseAlertsTable
+

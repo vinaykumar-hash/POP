@@ -1,0 +1,1749 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="parking" id="parking">
+	<SimpleField name="OBJECTID" type="float"></SimpleField>
+	<SimpleField name="KGISLULCID" type="string"></SimpleField>
+	<SimpleField name="LULC_Code" type="string"></SimpleField>
+	<SimpleField name="LULC_Desc_1" type="string"></SimpleField>
+	<SimpleField name="LULC_Desc_2" type="string"></SimpleField>
+	<SimpleField name="LULC_Desc_3" type="string"></SimpleField>
+	<SimpleField name="LULC_Desc_4" type="string"></SimpleField>
+	<SimpleField name="LULC_Desc_5" type="string"></SimpleField>
+	<SimpleField name="Remarks" type="string"></SimpleField>
+	<SimpleField name="FinalRemarks" type="string"></SimpleField>
+	<SimpleField name="Optional_Text" type="string"></SimpleField>
+	<SimpleField name="SHAPE.STArea()" type="float"></SimpleField>
+	<SimpleField name="SHAPE.STLength()" type="float"></SimpleField>
+</Schema>
+<Folder><name>parking</name>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">1</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">09-00-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Others</SimpleData>
+		<SimpleData name="LULC_Desc_2">Others</SimpleData>
+		<SimpleData name="LULC_Desc_3">Others</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Others-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">4223.377921875</SimpleData>
+		<SimpleData name="SHAPE.STLength()">280.276287428869</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5376182751533,12.9362306678168 77.5374717933446,12.9362404504173 77.5374507687802,12.936330296695 77.53730444818,12.9363209637676 77.5372660341429,12.9364035364401 77.5372519850697,12.9364337344041 77.537039686454,12.9368900754443 77.5370258907363,12.9370068065073 77.5374161294744,12.9370627079884 77.5374561791974,12.9370684446913 77.537432487545,12.937017736541 77.5376436601704,12.9369332106158 77.5376182751533,12.9362306678168</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">2</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">09-00-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Others</SimpleData>
+		<SimpleData name="LULC_Desc_2">Others</SimpleData>
+		<SimpleData name="LULC_Desc_3">Others</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Others-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">14401.07207421</SimpleData>
+		<SimpleData name="SHAPE.STLength()">579.915897260573</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5782470323404,12.935987653796 77.5786590590996,12.935747580283 77.5786404392,12.9357142989399 77.5789871230381,12.9354975992022 77.5794332410688,12.9351561443292 77.5794357463616,12.9347422408775 77.5782319944738,12.9347306722257 77.5782393623328,12.9347702200525 77.5782395371076,12.934771362992 77.5782648126968,12.9349826660607 77.5782649377682,12.93498461898 77.5782654651486,12.9350606758731 77.5782652090024,12.9350638043323 77.578248537518,12.9351591635673 77.5782478628203,12.9351618064964 77.5782144647213,12.9352604010201 77.5782141392246,12.9352612625129 77.5782000398648,12.9352958124024 77.5781587527073,12.9354156463636 77.5781581491163,12.9354171421154 77.5780748616881,12.9355993452032 77.5779560133202,12.9358848124219 77.5778740286351,12.9360746918537 77.577811814157,12.9362130591242 77.5780712874733,12.9362257259501 77.5780684520251,12.9360639999164 77.5781577422034,12.9360258273207 77.5782470323404,12.935987653796</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">3</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">09-00-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Others</SimpleData>
+		<SimpleData name="LULC_Desc_2">Others</SimpleData>
+		<SimpleData name="LULC_Desc_3">Others</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking lot</SimpleData>
+		<SimpleData name="FinalRemarks">Others-Parking lot</SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">13036.015935865</SimpleData>
+		<SimpleData name="SHAPE.STLength()">668.147398355876</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5615644511138,12.9216218256838 77.5616616179682,12.9214058652982 77.5617920297497,12.9210775163812 77.561792914155,12.9210753701194 77.5620139471591,12.9205584221025 77.5620336012092,12.9205135622367 77.5619251662875,12.9204518640884 77.5618452447566,12.9204156427635 77.5618274435921,12.9204088283018 77.5611710743855,12.921328173155 77.560570582535,12.9212288862603 77.560557270173,12.9209894926637 77.5605299985154,12.9209916727935 77.5605290143798,12.9209917167783 77.5605275824922,12.9209916576434 77.5604339174662,12.9209830150694 77.5604329482039,12.920982891768 77.5604313982886,12.920982548297 77.5601695207265,12.9209087835172 77.5602311044325,12.9212845624958 77.5603274405904,12.9219074155698 77.560728748811,12.9218121030733 77.5615644511138,12.9216218256838</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">4</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">09-00-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Others</SimpleData>
+		<SimpleData name="LULC_Desc_2">Others</SimpleData>
+		<SimpleData name="LULC_Desc_3">Others</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">parking</SimpleData>
+		<SimpleData name="FinalRemarks">Others-parking</SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">27280.369281225</SimpleData>
+		<SimpleData name="SHAPE.STLength()">1187.12696697143</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5727709613511,12.9018629089751 77.5727591587104,12.9017458753736 77.5726376585615,12.901296717279 77.5724896812979,12.9010281035531 77.5724689114311,12.9009904008763 77.5724355731624,12.9009459249171 77.5724085677816,12.9009583222205 77.5723810732579,12.9009284662398 77.5715626130137,12.9014909697425 77.5710887616925,12.9018570582376 77.5707476325948,12.9020963448106 77.5709903310752,12.902580197397 77.5710110289249,12.9025835543226 77.5710245515078,12.9025953730989 77.571055129445,12.9026070241141 77.5712847111419,12.9025342892069 77.5714138542072,12.902490406511 77.571269575901,12.9022228903531 77.5712938139945,12.9022102213128 77.5714461376765,12.902479437206 77.5716690803419,12.9024036820205 77.5716898283542,12.9024042900955 77.571708204614,12.9024141484693 77.5717192490719,12.9024219287586 77.5717266175406,12.9024275931892 77.5717571761751,12.9024807751401 77.571834505569,12.9028353423313 77.571975131914,12.902806036502 77.5725899553816,12.9026434158545 77.5727556316578,12.9026106142779 77.5726840066348,12.9023569179055 77.5725497292292,12.9019315786107 77.5725187926715,12.9018858449371 77.5725004026846,12.9018745520714 77.572471858896,12.9018712471737 77.572432583261,12.9018754209616 77.5723902526857,12.9018894887026 77.5722167918978,12.9019566914523 77.5723028437995,12.9022554919051 77.572278228454,12.9022640449991 77.572189053022,12.9019674381356 77.5720531114877,12.9020201054558 77.5720394300547,12.9019927507169 77.5723804937017,12.9018662892134 77.5724382411981,12.9018426892088 77.5723873043868,12.9016566455766 77.5724200255396,12.9016395907305 77.5724751471632,12.9018353585883 77.5724978498892,12.901839438311 77.5725213204365,12.9018470953749 77.5725639225661,12.9018881310278 77.5725676542642,12.9018936234315 77.5726104221224,12.9019921974269 77.5727818690898,12.9026054195642 77.5728638708298,12.9025891850685 77.5728340441986,12.9023745645207 77.5727709613511,12.9018629089751</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">5</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">09-00-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Others</SimpleData>
+		<SimpleData name="LULC_Desc_2">Others</SimpleData>
+		<SimpleData name="LULC_Desc_3">Others</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking lot</SimpleData>
+		<SimpleData name="FinalRemarks">Others-Parking lot</SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">2449.17896688</SimpleData>
+		<SimpleData name="SHAPE.STLength()">451.855643575552</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5780256192159,12.894357932678 77.5780494109676,12.8942739222013 77.5777919296257,12.89419996141 77.5777912172789,12.8941997353409 77.5777903999995,12.8941994244784 77.5773301231503,12.8940071801801 77.5769476914446,12.8939130722764 77.5767217220268,12.8948160249114 77.5767462678281,12.8948225372684 77.5767963117927,12.8948256787847 77.5768242488457,12.8948225151974 77.5768720854431,12.8947171822193 77.5769676929034,12.8943749818003 77.5770127245117,12.8942083267772 77.57704079893,12.894097242911 77.577041179417,12.8940959978216 77.5770416493858,12.8940948575542 77.5770569090024,12.8940621974526 77.5770580844731,12.8940601645801 77.5770596002345,12.8940583583763 77.5770731071364,12.894044838871 77.5770739875615,12.8940440315461 77.5770757474794,12.8940427755753 77.5770952200866,12.8940310520706 77.5770969184872,12.8940301991489 77.5770987217853,12.8940295839683 77.5771005951582,12.8940292184084 77.5771336902299,12.8940250680066 77.5771360362124,12.8940249712468 77.5771383648105,12.8940252654928 77.5771406079421,12.8940259421416 77.5775942652761,12.8942054284669 77.5776376480003,12.8942226832292 77.5779300422779,12.8943389771995 77.5780256192159,12.894357932678</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">6</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">09-00-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Others</SimpleData>
+		<SimpleData name="LULC_Desc_2">Others</SimpleData>
+		<SimpleData name="LULC_Desc_3">Others</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking lot</SimpleData>
+		<SimpleData name="FinalRemarks">Others-Parking lot</SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">1429.107104205</SimpleData>
+		<SimpleData name="SHAPE.STLength()">168.68653563189</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5744406399154,12.8800758516842 77.5743669995341,12.8795436435894 77.5741703382917,12.8795729509097 77.5741880367535,12.8796744839898 77.5741573997971,12.8796792166446 77.5742155816077,12.8801102365809 77.5743323527687,12.8800919164946 77.5743581307083,12.8800882136421 77.5744406399154,12.8800758516842</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">7</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">09-00-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Others</SimpleData>
+		<SimpleData name="LULC_Desc_2">Others</SimpleData>
+		<SimpleData name="LULC_Desc_3">Others</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking lot</SimpleData>
+		<SimpleData name="FinalRemarks">Others-Parking lot</SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">6022.83614561</SimpleData>
+		<SimpleData name="SHAPE.STLength()">352.807470924935</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5598785905075,12.883182262267 77.560034698833,12.8831308039172 77.5599640279461,12.8827120323166 77.5599487172074,12.8826213100724 77.5599339782924,12.8824453839916 77.5599506209137,12.8820499639886 77.5594363396348,12.8823926390653 77.5595310899676,12.8833350759174 77.5595339541148,12.8833310130497 77.5595591415218,12.8833019174098 77.5595622296931,12.8832988759736 77.5595660599097,12.8832961778243 77.5596019624059,12.8832751970988 77.5596039564858,12.8832741431354 77.5596248422398,12.8832641589245 77.5596272355046,12.8832631480375 77.5596283348914,12.8832627695779 77.5598785905075,12.883182262267</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">8</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">07-04-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Water bodies</SimpleData>
+		<SimpleData name="LULC_Desc_2">Tank</SimpleData>
+		<SimpleData name="LULC_Desc_3">Tank</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">parking</SimpleData>
+		<SimpleData name="FinalRemarks">Tank-parking</SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">5947.294801075</SimpleData>
+		<SimpleData name="SHAPE.STLength()">332.55395862057</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5733320334325,12.9025039045106 77.5733529823756,12.9023602210635 77.573375359457,12.9020970492636 77.5733799543882,12.9017957588094 77.573359349537,12.9016359232646 77.5733247318732,12.9014511837729 77.5733230086697,12.9014439713132 77.5729939455344,12.9015698197512 77.57296845997,12.901579631838 77.573000736863,12.9017573981256 77.5729972784629,12.9017765555402 77.572981514836,12.9017838823066 77.5729486837027,12.901790180896 77.5729025133112,12.9018025871139 77.5728636395767,12.9018137271423 77.5728430769957,12.9018282718367 77.5728286416608,12.9018463420248 77.5728190908173,12.901865558501 77.5728132202496,12.9018871301924 77.5728250191538,12.9020878063409 77.5728960483712,12.9025828143042 77.5731553445049,12.9025314781479 77.5733320334325,12.9025039045106</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">9</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">09-00-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Others</SimpleData>
+		<SimpleData name="LULC_Desc_2">Others</SimpleData>
+		<SimpleData name="LULC_Desc_3">Others</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">parking</SimpleData>
+		<SimpleData name="FinalRemarks">Others-parking</SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">3600.883294005</SimpleData>
+		<SimpleData name="SHAPE.STLength()">262.82656327303</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5712252972018,12.9029925920164 77.5712097048875,12.9029470478286 77.5714815320386,12.9029088987102 77.5718014518753,12.9028422302398 77.5717036558306,12.9024816025631 77.5716910684106,12.9024659503092 77.5716755865605,12.9024531940913 77.5716660108564,12.9024461175951 77.571654235232,12.902438344497 77.5716388862605,12.9024384955062 77.5714610792987,12.9024933118083 77.5711456902047,12.9026046986363 77.5710589718443,12.9026313678169 77.5710377524507,12.9026294254133 77.5710252978933,12.9026266794538 77.5710067605059,12.9026129504133 77.5710088080794,12.9026170328554 77.5710137869291,12.9028702399529 77.5710169285357,12.9030300127977 77.5712252972018,12.9029925920164</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">10</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">1516.700462605</SimpleData>
+		<SimpleData name="SHAPE.STLength()">158.359551120976</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.510963143802,12.9233498856597 77.5109641636984,12.9233417137158 77.5110162067089,12.9229247365067 77.510736829987,12.9229027190078 77.5107168560234,12.9230022625766 77.510695151858,12.923137880194 77.5106871121996,12.9233556264739 77.510963143802,12.9233498856597</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">11</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">4091.65875932</SimpleData>
+		<SimpleData name="SHAPE.STLength()">261.647628454587</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5335596137546,12.907570740506 77.533392738947,12.9071947962866 77.5333121499983,12.9070340259339 77.5329217794871,12.9071760711522 77.5328890565719,12.9071879781542 77.5329290526879,12.9072879902944 77.5327907211779,12.9073443113913 77.5328855505162,12.9075657045716 77.5329601566828,12.9077696343586 77.5335596137546,12.907570740506</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">12</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-09-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Recreational</SimpleData>
+		<SimpleData name="LULC_Desc_3">Park / Garden</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Park / Garden-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Parking Area</SimpleData>
+		<SimpleData name="SHAPE.STArea()">8755.28716608</SimpleData>
+		<SimpleData name="SHAPE.STLength()">405.993105630189</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.505705383413,12.9221743085882 77.5059925852766,12.9220915516172 77.5059453785091,12.921945047974 77.5059364427159,12.9219039190916 77.5059274982145,12.9218627478277 77.5059142078181,12.9216298020689 77.5059160424314,12.9212030797686 77.5052912483005,12.9213548980061 77.5048815584133,12.9214496678134 77.5050144522047,12.9217017856399 77.5051902579786,12.9217359563407 77.5052381540991,12.9218956599625 77.5051542968876,12.9220398944512 77.5054002158316,12.9222622412653 77.505705383413,12.9221743085882</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">13</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-09-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Recreational</SimpleData>
+		<SimpleData name="LULC_Desc_3">Park / Garden</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Park / Garden-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Parking Area</SimpleData>
+		<SimpleData name="SHAPE.STArea()">5344.27598054</SimpleData>
+		<SimpleData name="SHAPE.STLength()">350.540451474577</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5107198920712,12.9227064414057 77.5107468410905,12.9225215602104 77.5107587020041,12.9224015375639 77.5107605189856,12.9223055034341 77.5101718401785,12.9224660344111 77.5096904236771,12.9226147569373 77.5097540473401,12.9228086559932 77.5096052753391,12.9228459442151 77.5096614931508,12.9230576789433 77.5107198920712,12.9227064414057</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">14</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-09-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Recreational</SimpleData>
+		<SimpleData name="LULC_Desc_3">Park / Garden</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Park / Garden-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Parking Area</SimpleData>
+		<SimpleData name="SHAPE.STArea()">3012.414081705</SimpleData>
+		<SimpleData name="SHAPE.STLength()">306.749721796182</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5107612326186,12.922267800233 77.510761622465,12.9222471851529 77.5107412775002,12.9220758630993 77.5107340712168,12.9220467632204 77.5102297932368,12.9221972396721 77.5095796208611,12.9223912495873 77.5096325205449,12.9225947574381 77.5101610710028,12.9224314737391 77.5101616707155,12.9224312990191 77.5107612326186,12.922267800233</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">15</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">2241.05526405</SimpleData>
+		<SimpleData name="SHAPE.STLength()">194.356361032157</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5291560229221,12.914001788938 77.5288111292767,12.9139482219834 77.5287131176145,12.9139292203068 77.5287638184729,12.9143505695112 77.5291865274522,12.9144624135075 77.5291560229221,12.914001788938</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">16</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">11186.70688587</SimpleData>
+		<SimpleData name="SHAPE.STLength()">431.723100932785</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5164733702079,12.8987818108821 77.5170521559418,12.8986974700274 77.5171207296843,12.8986874768527 77.5170937038902,12.898421796263 77.5171940910957,12.8984088776129 77.5170914048933,12.8977100460778 77.5170442569484,12.8977000556043 77.5169652937199,12.8976013714688 77.516871387433,12.897567852456 77.5168498690187,12.8975604097399 77.5162333060025,12.8975702004818 77.5164181385089,12.8987898594765 77.5164733702079,12.8987818108821</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">17</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">4354.378078475</SimpleData>
+		<SimpleData name="SHAPE.STLength()">304.059909977097</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5170533269002,12.8974509109907 77.5166738113915,12.897071628492 77.5166072687411,12.8970020443635 77.5161470735951,12.8970011584538 77.5161926261894,12.8973017562044 77.5162263514754,12.8975243060392 77.5168787055365,12.8975199721379 77.5169060906924,12.897529270164 77.5169962901142,12.8975819489782 77.517051575017,12.8976521752871 77.5170872967749,12.897682090145 77.5170533269002,12.8974509109907</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Delhi Public School, Bangalore East</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">18</SimpleData>
+		<SimpleData name="LULC_Code">01-10-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Educational</SimpleData>
+		<SimpleData name="LULC_Desc_3">School / Colleges</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">School / Colleges-Delhi Public School, Bangalore East-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Delhi Public School, Bangalore East</SimpleData>
+		<SimpleData name="SHAPE.STArea()">5744.2337219</SimpleData>
+		<SimpleData name="SHAPE.STLength()">294.309732246527</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.7270476044516,12.8839300653896 77.7265526662085,12.8843602644115 77.7266508127906,12.8846496422917 77.7268357287148,12.8847550843411 77.7268401675239,12.8847525041895 77.726844756463,12.8847499278935 77.7268493280443,12.8847474493403 77.7268539371863,12.884745038147 77.7268585820573,12.8847426952361 77.7268632635879,12.8847404215011 77.7268679780855,12.8847382160773 77.7268727264903,12.8847360807616 77.7268775060403,12.8847340155826 77.7268823176561,12.8847320205309 77.7268871585856,12.8847300965384 77.7268920517578,12.884728235236 77.7268969265636,12.8847264635568 77.7269018517806,12.8847247554901 77.7269068017175,12.8847231194339 77.7269117754733,12.8847215572042 77.7269167739588,12.8847200678882 77.7269217935012,12.8847186524275 77.726926835021,12.8847173108125 77.7269318957564,12.884716043072 77.7269369757267,12.8847148510126 77.7269420730712,12.8847137328468 77.7269471868886,12.8847126903908 77.7269522914291,12.8847117266229 77.72695746024,12.8847108308399 77.7269626170218,12.8847100146771 77.7269677856829,12.8847092751752 77.7269729643625,12.884708610547 77.7269781530899,12.8847080235023 77.7269833509247,12.884707512244 77.7269885551051,12.8847070768011 77.7269937656505,12.8847067189799 77.7269989807,12.8847064369932 77.7270042002733,12.8847062326475 77.7270094841951,12.8847061035126 77.7270146446656,12.8847060533523 77.727019867653,12.8847060793252 77.7270250896304,12.8847061820935 77.7270303096768,12.8847063616666 77.727035526862,12.8847066171509 77.727040739364,12.8847069503721 77.727045945322,12.8847073595429 77.7270511456665,12.884707845557 77.7270563367147,12.8847084084527 77.7270615193775,12.8847090473172 77.7270666918135,12.8847097621696 77.7270718660112,12.8847105546918 77.7270770004812,12.8847114198959 77.7270821348716,12.884712362789 77.7270872534916,12.8847133799211 77.7270923572814,12.8847144730891 77.7270974425486,12.8847156414282 77.7271025102041,12.8847168840255 77.7271073284619,12.8847181391585 77.7271153701262,12.8847202197882 77.7271235390879,12.8847224065898 77.7271316876172,12.8847246622588 77.7271398166446,12.8847269876887 77.727147924319,12.8847293819956 77.7271560106403,12.8847318451794 77.7271640755988,12.8847343763369 77.7271721173629,12.8847369763905 77.7271801350021,12.8847396444466 77.7271881164986,12.8847423761136 77.7271960997571,12.8847451854501 77.7272040450217,12.8847480575136 77.7272119643104,12.8847509966955 77.7272198576231,12.8847540029957 77.7272277240391,12.884757076424 77.7272355626378,12.8847602169899 77.7272433734094,12.8847634237901 77.7272511554333,12.8847666968343 77.7272589086995,12.8847700352192 77.7272666323071,12.8847734407608 77.727274325306,12.8847769107592 77.7272819867852,12.884780446127 77.7272896176656,12.8847840468547 77.727297216096,12.8847877120582 77.7273041396304,12.8847911259365 77.727407904017,12.8845883894883 77.7274203030779,12.8845407449082 77.7274195842454,12.8844743579068 77.7273023267407,12.8842022231494 77.7272561925586,12.8841207428626 77.7271635470061,12.8840215058617 77.7270699984215,12.8839455051911 77.7270476044516,12.8839300653896</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">19</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">09-00-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Others</SimpleData>
+		<SimpleData name="LULC_Desc_2">Others</SimpleData>
+		<SimpleData name="LULC_Desc_3">Others</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking </SimpleData>
+		<SimpleData name="FinalRemarks">Others-Parking </SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">2149.49432816</SimpleData>
+		<SimpleData name="SHAPE.STLength()">209.693182912914</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.6020606944389,12.9096353770788 77.6020311219778,12.9096260925206 77.6017953351205,12.9095639013812 77.6016016032692,12.9102285207045 77.6018309361951,12.9102961859497 77.6020606944389,12.9096353770788</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">20</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-02-05-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Rural)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Vacant Land</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">PARKING</SimpleData>
+		<SimpleData name="FinalRemarks">Vacant Land-PARKING</SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">3332.464744665</SimpleData>
+		<SimpleData name="SHAPE.STLength()">282.071256370361</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.4319723220515,13.0740982051805 77.4319439642013,13.0740202861544 77.4319435411198,13.0740189664668 77.431878831391,13.0737862535969 77.4318785914745,13.073785284561 77.4318456114061,13.0736342799861 77.4310136227318,13.0739203356111 77.4310140593304,13.0739202131382 77.4310164650576,13.0739195688599 77.431016904536,13.0739194581057 77.4310193284551,13.073918883228 77.4310197708222,13.0739187850961 77.4310222110898,13.0739182796363 77.4310226204565,13.0739181998857 77.4310251101883,13.0739177572074 77.4310255574112,13.0739176843286 77.431028023925,13.0739173177655 77.4310284731062,13.0739172566142 77.4310309486046,13.0739169604418 77.4310313997617,13.0739169128249 77.4310338833233,13.0739166870521 77.4310343355259,13.0739166520747 77.4310368243858,13.0739164967274 77.431037277634,13.0739164743896 77.4310397699578,13.0739163903886 77.4310401938388,13.0739163809767 77.4310427172657,13.0739163671583 77.4310431707705,13.0739163710205 77.4310456644751,13.0739164279573 77.4310461181039,13.0739164444677 77.4310486088124,13.0739165719081 77.4310490607219,13.0739166010842 77.4310515465912,13.0739167990456 77.4310519986334,13.0739168417733 77.4310544778204,13.073917110273 77.4310549272217,13.0739171656751 77.4310573978831,13.0739175047304 77.4310578224899,13.0739175694012 77.4310603049273,13.0739179815316 77.4310607508901,13.0739180622649 77.4310631971098,13.0739185406941 77.4310636404317,13.0739186341017 77.4310660707354,13.073919181349 77.4310665114164,13.0739192874309 77.4310689248824,13.0739199035051 77.4310693629226,13.0739200222613 77.4310717567774,13.0739207062849 77.4310721903246,13.0739208368293 77.4310745636553,13.0739215897145 77.4310749760679,13.0739217267826 77.4310773427339,13.073922552013 77.4310777682258,13.0739227070285 77.4310800930826,13.0739235922855 77.43108051316,13.073923759098 77.431082811015,13.073924710567 77.4310832256867,13.0739248900797 77.4310854946792,13.0739259059711 77.4310859039275,13.0739260963773 77.4310881422141,13.0739271767085 77.431088546048,13.0739273789115 77.4310907508463,13.0739285219016 77.4310911390661,13.0739287296728 77.4310933187236,13.0739299406644 77.4310937098764,13.0739301655751 77.4310958430635,13.0739314312161 77.4310962278714,13.0739316670289 77.4310983229445,13.0739329935652 77.4310987004858,13.0739332402888 77.4311007555753,13.0739346250275 77.43110112585,13.0739348826619 77.4311031391125,13.0739363256204 77.4311035021118,13.0739365932621 77.4311054716866,13.0739380926508 77.4311058218544,13.0739383676416 77.4311077505238,13.0739399252414 77.4311080971291,13.0739402129151 77.4311099746848,13.0739418215939 77.4311103121627,13.0739421183888 77.4311121423088,13.0739437799187 77.4311124706681,13.0739440867384 77.4311142506221,13.0739457993386 77.4311145689324,13.0739461152881 77.4311162977639,13.0739478780638 77.4311166078683,13.0739482031259 77.4311182837075,13.0739500133841 77.4311185837629,13.0739503475762 77.4311202066187,13.0739522062203 77.4311204956769,13.0739525468406 77.4311220618186,13.0739544493882 77.4311223408366,13.0739548000419 77.4311238502554,13.0739567455895 77.4311241201283,13.0739571035575 77.431125570981,13.0739590921225 77.4311258298655,13.0739594574222 77.431127221204,13.0739614863028 77.4311274691001,13.0739618589342 77.4311288009066,13.0739639263236 77.4311290368928,13.0739643062954 77.4311303110548,13.0739664166935 77.4311305322867,13.0739667959007 77.4311317394554,13.0739689358425 77.4311319534384,13.0739693277673 77.4311330964141,13.0739715008406 77.4311332984783,13.0739718992024 77.4311343772432,13.0739741036003 77.4311345673798,13.0739745074955 77.4311355809947,13.0739767414198 77.4311357591948,13.0739771499451 77.4311367057987,13.0739794116062 77.4311368720712,13.073979825665 77.4311377573088,13.0739821267557 77.4311379059824,13.0739825319449 77.4311387175897,13.0739848436676 77.4311388590587,13.0739852660917 77.4311396017588,13.073987600148 77.4311397303609,13.0739880263073 77.431140404136,13.0739903808902 77.4311405207928,13.0739908107762 77.4311411246859,13.0739931822806 77.4311412284757,13.0739936159018 77.4311417615653,13.0739960043363 77.4311418524705,13.0739964398859 77.4311423195327,13.0739988623728 77.4311423936721,13.0739992800096 77.4311427850838,13.0740016950769 77.4311428502285,13.0740021353867 77.4311431040975,13.0740040584211 77.4312934855907,13.073967277412 77.4312942729917,13.0739669302705 77.4312947374338,13.0739667334454 77.4312968351722,13.0739658860594 77.4312973062071,13.0739657036286 77.431299430414,13.0739649237582 77.4312999080506,13.0739647566254 77.431302056874,13.0739640433844 77.4313025392779,13.0739638924703 77.4313047099707,13.0739632476917 77.4313051971242,13.0739631111893 77.4313073887737,13.0739625357853 77.4313078797729,13.0739624155103 77.4313100886927,13.0739619095155 77.4313105835287,13.0739618045644 77.4313129081703,13.0739613507883 77.4313133065663,13.0739612801758 77.4313155445149,13.0739609148585 77.4313160451903,13.073960841476 77.4313182939845,13.073960548339 77.4313187966536,13.0739604902977 77.4313210544415,13.073960268455 77.4313215591131,13.0739602266583 77.4313238222083,13.0739600761445 77.4313243279608,13.0739600506013 77.4313265954417,13.0739599714251 77.4313270506658,13.0739599626211 77.4313293704642,13.0739599552348 77.4313298765265,13.0739599613122 77.4313321445021,13.0739600266963 77.4313326498021,13.0739600490444 77.4313349147906,13.0739601858356 77.4313354193196,13.0739602235509 77.4313376776435,13.0739604326873 77.4313381814102,13.0739604866734 77.4313404321301,13.0739607663567 77.4313409332914,13.0739608366309 77.4313432235062,13.0739611963566 77.4313436722073,13.073961274353 77.4313458994339,13.0739616961118 77.4313463953754,13.0739617980587 77.4313486076165,13.0739622895305 77.4313490991093,13.0739624077828 77.4313512945306,13.0739629698884 77.4313517824787,13.0739631026306 77.431353957376,13.0739637335977 77.4313544408755,13.0739638826454 77.4313565943272,13.0739645824827 77.431356977178,13.0739647126004 77.4313592016625,13.0739655129644 77.4313596743949,13.0739656919299 77.4313617766347,13.0739665268756 77.4313622430576,13.073966720357 77.4313643173741,13.0739676215233 77.4313647765659,13.0739678295293 77.4313668201855,13.0739687960388 77.4313672730677,13.0739690185607 77.431369283208,13.0739700486327 77.4313697279375,13.0739702856879 77.4313717036767,13.0739713793308 77.4313721402446,13.0739716300158 77.4313740788004,13.0739727854489 77.4313745072156,13.0739730506672 77.4313764067359,13.0739742670045 77.4313768260591,13.0739745449577 77.4313786846829,13.0739758204096 77.4313790940013,13.07397611201 77.4313809098767,13.0739774456903 77.4313813101031,13.0739777500258 77.4313831594118,13.0739792035609 77.4313834697388,13.0739794572416 77.4313851936307,13.0739809038258 77.4313855728994,13.073981232754 77.4313872484602,13.0739827321981 77.4313876167848,13.0739830729752 77.4313892412497,13.0739846253051 77.4313895976998,13.0739849770364 77.4313911701295,13.0739865804541 77.4313915156355,13.0739869440343 77.4313930341602,13.0739885958466 77.4313933351553,13.0739889318365 77.4313948314722,13.0739906687899 77.4313951513771,13.0739910533923 77.4313965583613,13.0739927975115 77.4313968663829,13.0739931921647 77.4313982148097,13.0739949802048 77.4313985090959,13.0739953840227 77.4313997980263,13.0739972141854 77.4314000794987,13.0739976271592 77.4314013070628,13.0739994967515 77.4314015747998,13.07399991889 77.4314027662968,13.0740018701397 77.4314029931295,13.0740022565221 77.4314040960736,13.0740042004738 77.43140433447,13.0740046382486 77.4314053723084,13.074006616244 77.4314055969428,13.0740070604731 77.4314065687361,13.074009070714 77.4314067777743,13.0740095223181 77.4314076834871,13.0740115611907 77.4314078778505,13.0740120201613 77.4314087147093,13.0740140867881 77.4314088593694,13.0740144585842 77.4314096632888,13.0740166438838 77.4314098273369,13.0740171130786 77.4314105264255,13.0740192288899 77.4314106929541,13.0740197631156 77.4314742085017,13.0742387139842 77.4319723220515,13.0740982051805</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">21</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">09-00-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Others</SimpleData>
+		<SimpleData name="LULC_Desc_2">Others</SimpleData>
+		<SimpleData name="LULC_Desc_3">Others</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Others-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">4916.85211179</SimpleData>
+		<SimpleData name="SHAPE.STLength()">303.913889843202</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5391601247897,13.0167919958637 77.5395265073221,13.016735171353 77.5395067587821,13.0166415487624 77.5394632678506,13.0164648292309 77.5394415086469,13.0163890914817 77.5393294219576,13.0160512255445 77.5392100553373,13.0157319582013 77.5390673190606,13.0159701440405 77.5388690163468,13.0162897153636 77.5390133500022,13.0167509884311 77.5390137255364,13.0167524872199 77.5390252533784,13.0168135652732 77.5391601247897,13.0167919958637</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">22</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">09-00-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Others</SimpleData>
+		<SimpleData name="LULC_Desc_2">Others</SimpleData>
+		<SimpleData name="LULC_Desc_3">Others</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Others-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">1350.913645415</SimpleData>
+		<SimpleData name="SHAPE.STLength()">234.738343537164</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5633499046064,13.0551433784623 77.563355509669,13.0550320973654 77.5633356325283,13.0550315798066 77.562413616467,13.0550075672541 77.5624150167229,13.0551727664678 77.5625023580363,13.0551532680597 77.5625040556957,13.0551529305089 77.5625812928326,13.0551399936982 77.5625855924698,13.0551395264606 77.5627478622107,13.055131285838 77.5627493960711,13.0551312390134 77.5627504134732,13.0551312424804 77.5633029105972,13.0551407166366 77.5633044160333,13.0551407730838 77.5633499046064,13.0551433784623</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">23</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">11308.72895808</SimpleData>
+		<SimpleData name="SHAPE.STLength()">443.562969911573</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5557445847562,12.9596368017848 77.5557332253486,12.9596241311559 77.5557295596479,12.9596197663907 77.5557194218958,12.9596070223317 77.5557137243267,12.9595991621513 77.5555810716242,12.959397765034 77.5555783726922,12.9593934440789 77.5554942860524,12.9592494105346 77.5554723526272,12.959211840426 77.5549949017131,12.9593828051669 77.5542139374185,12.9596290115849 77.5542180612387,12.9596400900173 77.5542662413156,12.9602134794334 77.5543065252405,12.9602135449085 77.5545565632307,12.9601832014119 77.5548751634697,12.9601329762921 77.5551564237666,12.960060934666 77.5552317744722,12.960038188537 77.5552851171896,12.9600166097702 77.555354504689,12.9599810993345 77.5554216160743,12.9599346811655 77.555465294072,12.9599014016676 77.5554968121091,12.9598750346564 77.5555935801201,12.9597847758222 77.5557417846642,12.9596394475028 77.5557445847562,12.9596368017848</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">24</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">09-00-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Others</SimpleData>
+		<SimpleData name="LULC_Desc_2">Others</SimpleData>
+		<SimpleData name="LULC_Desc_3">Others</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Others-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">2659.2902173</SimpleData>
+		<SimpleData name="SHAPE.STLength()">264.19053801642</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5610812294165,12.9548781751609 77.5610864279661,12.9546237855486 77.56073573632,12.9546501821103 77.5607128838387,12.9545127199548 77.5605707397737,12.9545313285217 77.5605657839047,12.9544859947856 77.5605492304686,12.954334570065 77.5603720330611,12.9543573484078 77.5603959002659,12.954495424039 77.5604617933685,12.954876634152 77.5610812294165,12.9548781751609</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">25</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">25716.817566965</SimpleData>
+		<SimpleData name="SHAPE.STLength()">746.414596128963</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5777034650318,12.9614779703163 77.5776758764821,12.9611981554234 77.5776757602841,12.961196353296 77.5776536317107,12.9604677354639 77.5776525658886,12.9603644749125 77.5776525691667,12.9603637195992 77.5776617870208,12.9598549132254 77.5776635589605,12.9592704609499 77.5776507265935,12.9589155897184 77.5769863337162,12.9591007317906 77.5766477360108,12.959200948241 77.576679145974,12.9594392629139 77.5767438551264,12.9599167489449 77.576868812088,12.9606876579159 77.5770664988261,12.9616471483753 77.5770725381751,12.9616587963388 77.5770796804165,12.9616656360822 77.5770913667035,12.9616714822144 77.5771077700332,12.9616760484365 77.5771355942186,12.9616767829887 77.5771835646253,12.9616687669378 77.5771913005616,12.9616670605216 77.5772813375287,12.9616357228469 77.5773423691345,12.9616106983515 77.5774256729658,12.9615736100174 77.5775132406394,12.96153632043 77.5775141974446,12.9615359342179 77.5775944476938,12.9615052137512 77.5775968825029,12.9615044235166 77.5776378252644,12.9614931893463 77.5776389222865,12.9614929119655 77.5777034650318,12.9614779703163</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">26</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">09-00-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Others</SimpleData>
+		<SimpleData name="LULC_Desc_2">Others</SimpleData>
+		<SimpleData name="LULC_Desc_3">Others</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Others-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">805.36645543</SimpleData>
+		<SimpleData name="SHAPE.STLength()">127.321974617774</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5528656610097,12.9483604534459 77.5527470822124,12.9483597578286 77.5527487070049,12.9487621838977 77.5529566609746,12.9487779353277 77.552934856153,12.9486676537357 77.5529291292766,12.9486422285994 77.5528656610097,12.9483604534459</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">27</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-01-02-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Vacant Land</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Vacant Land-Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">11519.559101735</SimpleData>
+		<SimpleData name="SHAPE.STLength()">444.680651821087</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5554723526272,12.959211840426 77.5553808920418,12.9590516422179 77.5553093717452,12.9589236192156 77.5552547736688,12.9588392135823 77.555202441843,12.9587638473956 77.555115894421,12.9586724598582 77.5550911262539,12.9586493855363 77.5548534321451,12.958682829871 77.5543822574851,12.9587491263699 77.5539110824045,12.9588154211578 77.5541333402733,12.9594124964997 77.5542139374185,12.9596290115849 77.5549949017131,12.9593828051669 77.5554723526272,12.959211840426</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">28</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">09-00-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Others</SimpleData>
+		<SimpleData name="LULC_Desc_2">Others</SimpleData>
+		<SimpleData name="LULC_Desc_3">Others</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Others-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">4023.23594488</SimpleData>
+		<SimpleData name="SHAPE.STLength()">268.950940076083</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5640466447649,12.9622775632001 77.563662825529,12.9621455801821 77.5634009904961,12.9629432772495 77.5636217254139,12.9629691408254 77.5638355155065,12.9630100229896 77.5640466447649,12.9622775632001</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">29</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">09-00-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Others</SimpleData>
+		<SimpleData name="LULC_Desc_2">Others</SimpleData>
+		<SimpleData name="LULC_Desc_3">Others</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking</SimpleData>
+		<SimpleData name="FinalRemarks">Others-Parking</SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">1125.66632662</SimpleData>
+		<SimpleData name="SHAPE.STLength()">137.76277717975</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5800880764395,12.9583187051875 77.5800889764421,12.9582542454368 77.580094439164,12.9580742025563 77.5797039224464,12.9580854074925 77.5797034651334,12.9583249269874 77.5800880764395,12.9583187051875</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">30</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">09-00-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Others</SimpleData>
+		<SimpleData name="LULC_Desc_2">Others</SimpleData>
+		<SimpleData name="LULC_Desc_3">Others</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Others-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">8084.833518335</SimpleData>
+		<SimpleData name="SHAPE.STLength()">442.077494549351</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5695945647492,12.966352273174 77.5695846026658,12.9660942095708 77.569955309391,12.9661168432804 77.5699171724534,12.9654885483885 77.5694715798681,12.9655311946772 77.5694162064841,12.9658353208827 77.5689566784656,12.9659450353048 77.5690084289111,12.9664751899325 77.5696733372281,12.9665952480479 77.5697044537015,12.9663727017788 77.5695945647492,12.966352273174</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">31</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">09-00-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Others</SimpleData>
+		<SimpleData name="LULC_Desc_2">Others</SimpleData>
+		<SimpleData name="LULC_Desc_3">Others</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Others-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">2154.00455012</SimpleData>
+		<SimpleData name="SHAPE.STLength()">194.277439584121</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5679905051896,12.9610583188628 77.5679921190314,12.961058223437 77.5679864301169,12.9605035626321 77.5676646371095,12.9604965190376 77.5676822847216,12.9610765791158 77.5679905051896,12.9610583188628</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">32</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">09-00-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Others</SimpleData>
+		<SimpleData name="LULC_Desc_2">Others</SimpleData>
+		<SimpleData name="LULC_Desc_3">Others</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Others-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">8145.77064783</SimpleData>
+		<SimpleData name="SHAPE.STLength()">784.337422865418</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5760825980518,12.9662904276757 77.5759932967187,12.9661345854832 77.575635857196,12.965510806539 77.5755555469772,12.9655514254233 77.5754296332253,12.9653949072544 77.5754877504868,12.9653673858118 77.5753948480477,12.9652212973041 77.5759117284478,12.9650010477568 77.576336729768,12.9648171257398 77.5765530439091,12.9647235145518 77.5766734175586,12.9646714215756 77.5766274236784,12.9645075617742 77.5766245744286,12.9645088114459 77.5761417426127,12.9647206292669 77.5761412087978,12.9647208540892 77.5760686645816,12.9647500245072 77.5755947775754,12.9649448602683 77.5755717770567,12.9649544919056 77.5755710183076,12.9649547903256 77.5755693830129,12.964955308828 77.5755405526824,12.9649630069679 77.575538977353,12.9649633550287 77.5754865081822,12.9649722764074 77.5754843209979,12.9649725166893 77.5754115727553,12.9649762361513 77.5754107992059,12.9649762600694 77.5754095497786,12.9649762308767 77.5753510019326,12.9649729101505 77.5753492156688,12.9649727227466 77.5752574892669,12.9649586360323 77.5752544693885,12.9649578970854 77.5751249171231,12.9649145163592 77.5751241265323,12.9649142269488 77.5747672695781,12.9647745355485 77.575211603119,12.9653608007663 77.5752122789681,12.9653617562489 77.5758006291103,12.9662524611284 77.5758286404682,12.9662948680743 77.5758989448696,12.9663959245693 77.5760825980518,12.9662904276757</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">33</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-09-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Recreational</SimpleData>
+		<SimpleData name="LULC_Desc_3">Park / Garden</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking</SimpleData>
+		<SimpleData name="FinalRemarks">Park / Garden-Parking</SimpleData>
+		<SimpleData name="Optional_Text">Parking</SimpleData>
+		<SimpleData name="SHAPE.STArea()">11073.315502245</SimpleData>
+		<SimpleData name="SHAPE.STLength()">520.451697743966</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5010575842375,13.0492052219897 77.5015123896263,13.0490591225579 77.5013429762207,13.0485926485809 77.5013329542483,13.0485659723911 77.5013210786652,13.0485488757525 77.5013033903289,13.0485356597911 77.5012975006334,13.0485318922718 77.5012486833274,13.0485266271546 77.5007645692173,13.048684299342 77.499485494033,13.0491595019752 77.4995897697103,13.0494496143047 77.4999153863243,13.0493876610838 77.5005587106535,13.0492774572856 77.5009821838799,13.0491994965078 77.5010114400915,13.0491992136317 77.501042898425,13.0491996268304 77.5010546441851,13.0492038156762 77.5010575842375,13.0492052219897</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">34</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">27472.294136015</SimpleData>
+		<SimpleData name="SHAPE.STLength()">885.504697647853</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5007975277976,13.0500622830958 77.5008901674177,13.0499997178827 77.5011890927157,13.0499021633785 77.5010252801756,13.0493242935216 77.5010102625474,13.0492857133601 77.500992550118,13.0492701069837 77.5009763721776,13.049261657669 77.5009646552589,13.0492603362169 77.5009310110667,13.0492606615152 77.5007892333409,13.0492735075069 77.5000152680211,13.0494129439166 77.4995422672293,13.0495121783768 77.4993541815888,13.0489933467888 77.4993539220875,13.0489675320529 77.4993537058414,13.0489460202246 77.4993549961127,13.0489287962619 77.4993578208129,13.0489187284777 77.499364932572,13.0488985796829 77.4994318234959,13.0488037571073 77.499263347815,13.048358854583 77.4992472799798,13.0483164246943 77.4986271734754,13.0485555763672 77.4987702147812,13.0488616752081 77.4988714881451,13.0493311463855 77.4990907334543,13.0503301654708 77.5001320813377,13.0501565915223 77.5007975277976,13.0500622830958</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">35</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">6391.58434886</SimpleData>
+		<SimpleData name="SHAPE.STLength()">1046.98996118605</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5010845126883,13.0500216103837 77.5010944665934,13.0500082626513 77.501096328938,13.0500061332539 77.5010985081224,13.0500043114128 77.5011009512781,13.0500028413271 77.5011035991323,13.0500017586623 77.5011295341997,13.0499934171239 77.5011312169637,13.0499929608523 77.5011789600768,13.0499823828016 77.5011796434024,13.0499822451878 77.5011804263728,13.0499821192592 77.5017579355913,13.0499015444096 77.502002841169,13.0498647146069 77.5017221541068,13.0491016928097 77.5017219529317,13.0491011156189 77.5016950029933,13.0490192987992 77.5016941892048,13.0490172595535 77.5016936332003,13.0490151397344 77.5014881581318,13.0483913395185 77.5014152486483,13.0481956901287 77.5002070526522,13.0486578812611 77.4998396793361,13.0487937263153 77.4998379646587,13.0487944599499 77.4998361821765,13.0487950195779 77.4996705669151,13.0488562594573 77.4996676271273,13.0488570784201 77.4995838282001,13.0488732014608 77.4995805452059,13.0488735232056 77.4995775932844,13.0488733186301 77.4995051877238,13.0488625231804 77.4995028192773,13.0488619947799 77.4995005431372,13.0488611664822 77.4994983991262,13.0488600527789 77.4994964247551,13.048858673155 77.4994787826001,13.0488445458911 77.4994408704338,13.0488995670791 77.4994272469714,13.0489269507032 77.4994210470692,13.0489650195543 77.4994219075331,13.0489779194092 77.4994294815584,13.0490036634658 77.4994556338566,13.0490764254445 77.5008603518043,13.0485590676077 77.5012905577385,13.0484234313562 77.5013173766104,13.048423172029 77.5013442186078,13.0484253031082 77.5013613810086,13.0484346987796 77.5013908535444,13.0484559285759 77.5014181524258,13.048503473637 77.5017294756344,13.0493959398928 77.501797225907,13.0497318649915 77.5017820461988,13.0497740836851 77.5017705745995,13.0497971432637 77.50175327099,13.0498221719374 77.5017261761918,13.0498434708437 77.5012637695198,13.0499232424293 77.5009480148804,13.0500202423771 77.50091533279,13.0500455877591 77.5010845126883,13.0500216103837</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">36</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">4164.68128193</SimpleData>
+		<SimpleData name="SHAPE.STLength()">258.182278893467</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5015123896263,13.0490591225579 77.5010575842375,13.0492052219897 77.5010657881563,13.0492209193982 77.5011241985624,13.049428327041 77.5012521919357,13.0498821887044 77.5016455359073,13.0497773167125 77.5016687677473,13.0497598805496 77.5016840629147,13.0497291341507 77.5016916339938,13.0497061123007 77.5016398909321,13.0494101924264 77.5015123896263,13.0490591225579</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">37</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">1589.926093155</SimpleData>
+		<SimpleData name="SHAPE.STLength()">160.923847250191</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.7669915853839,12.9669224989912 77.7668332417719,12.966538477358 77.7668003393373,12.9665476969755 77.7666459422583,12.9665927163698 77.7665182521827,12.9666409827574 77.7667023965145,12.9670149482206 77.7669915853839,12.9669224989912</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">38</SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">2360.676685995</SimpleData>
+		<SimpleData name="SHAPE.STLength()">542.981428372641</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.712980415049,12.9673457384507 77.7119416223019,12.9671472046553 77.7119570840508,12.9670896803012 77.7129959256477,12.9672743073003 77.7130023193667,12.967244860764 77.7126131339648,12.9671067108784 77.7121774653993,12.9669343831168 77.7120743676054,12.9668661442181 77.7120423273193,12.9668330160726 77.7119702835216,12.9667461604138 77.7119487090872,12.966798050108 77.7118340812434,12.9671563258078 77.7129009250521,12.9673513578975 77.7129751933823,12.9673697860504 77.712980415049,12.9673457384507</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">39</SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">1147.798128265</SimpleData>
+		<SimpleData name="SHAPE.STLength()">142.175935729732</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.7123223741195,12.9668699111288 77.7123067553329,12.9668601668486 77.71229799285,12.9668387465647 77.7123024134447,12.9667968732479 77.7123973609161,12.9665462352833 77.712051909551,12.9665498366042 77.7119967522118,12.9666824995459 77.7121363917844,12.9668436282623 77.7122335574388,12.9669042802563 77.7122935555716,12.9669270941532 77.7123140850308,12.9668914007814 77.7123223741195,12.9668699111288</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">40</SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">4660.26653722</SimpleData>
+		<SimpleData name="SHAPE.STLength()">421.376592389941</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.696000014588,13.0081908126578 77.6957732031943,13.0077243284862 77.6949497831382,13.0079360487382 77.6942517310522,13.0081484862325 77.6944108765317,13.0081334480067 77.6951365565646,13.0081246426312 77.695636496499,13.0081792117125 77.6956510519342,13.0081806106272 77.6956564476493,13.0081816214294 77.695798112836,13.0082117579566 77.6958113811128,13.0082154440103 77.695824499315,13.0082209284175 77.6958678547941,13.0082423934812 77.6959985113507,13.0081913486202 77.696000014588,13.0081908126578</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">41</SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">1503.55236141</SimpleData>
+		<SimpleData name="SHAPE.STLength()">483.021156796709</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.7185743119232,12.9809545207318 77.7181616252357,12.9810109795841 77.7181683824455,12.9810335649843 77.718375794898,12.9810085173426 77.7185394071177,12.9809887597304 77.7185696639722,12.9810816583113 77.7186723234786,12.9814450787586 77.7186492575015,12.9814530879718 77.7185813402799,12.9812028355505 77.718525051983,12.9810134087897 77.7184952121247,12.9810149160495 77.7184472874922,12.9810208392529 77.7186004816325,12.9815061805085 77.7185786267742,12.9815135799321 77.7184144116875,12.9810249022244 77.7183042292582,12.9810385200255 77.7184968037107,12.9815781917079 77.7187073957388,12.9815361527443 77.7185743119232,12.9809545207318</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">42</SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">3244.566756465</SimpleData>
+		<SimpleData name="SHAPE.STLength()">333.966791826906</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.6963181403528,12.9772830548207 77.6962714524248,12.9773589566541 77.6962733154006,12.9773596780931 77.6964242181698,12.977453718986 77.6965481086836,12.9775289192993 77.6966206426687,12.9775879210142 77.6966981668751,12.9776576273251 77.6967682389798,12.9777142642145 77.6968004726468,12.9777653178445 77.696877042173,12.9779724676745 77.6969446619053,12.9781838838619 77.6970263698789,12.9781627844734 77.6970665723989,12.9782747046066 77.697229435241,12.9782347725875 77.6970949405912,12.9777414041528 77.6970173329235,12.9775509964279 77.6968585703606,12.9775191818733 77.6967092983955,12.9774633656786 77.6963181403528,12.9772830548207</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">43</SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">815.856181175</SimpleData>
+		<SimpleData name="SHAPE.STLength()">110.612851220643</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.6816034440008,12.9853134681991 77.6813738787712,12.9852732721317 77.6813694594607,12.9852738389875 77.6813666838644,12.9852777828662 77.6813534769069,12.9852980545249 77.6813459083861,12.9853428624249 77.6813344717335,12.9854310163158 77.6813307704524,12.985492657576 77.6813474301185,12.9854984036674 77.6813942248578,12.9855128363876 77.6814563587048,12.9855273890307 77.6814665566285,12.9855299108013 77.681470881349,12.9855306584288 77.6816127172274,12.9855465592591 77.6816475871304,12.9853514684289 77.6816454201596,12.9853464589875 77.6816325386716,12.9853263273976 77.6816034440008,12.9853134681991</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">44</SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">4792.665203805</SimpleData>
+		<SimpleData name="SHAPE.STLength()">308.924159505396</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.702417966954,12.9736200478893 77.7024199199151,12.9736149479821 77.7024201405247,12.9736143937345 77.7024785690521,12.9734732457891 77.7024788476312,12.9734726006027 77.7025224580398,12.9733759663018 77.7024801331169,12.9733608032807 77.7023746208909,12.9733230027854 77.7023717634915,12.9733218897252 77.7022367464811,12.9732649852138 77.7019673399838,12.9731514395304 77.701596150272,12.9729897627984 77.7015339003592,12.9729626491265 77.7016402498763,12.9736602364966 77.7020997590793,12.9736097238167 77.7021013377943,12.9736096288193 77.7021018610264,12.9736096315125 77.7023886446486,12.9736160489972 77.7024150875663,12.9736181789439 77.7024165804186,12.9736190356459 77.702417966954,12.9736200478893</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">45</SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">5400.798968845</SimpleData>
+		<SimpleData name="SHAPE.STLength()">435.731451906786</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.6884358239768,12.9882719469757 77.6883683237597,12.9882873912985 77.6883335184105,12.9882953696402 77.6884024442607,12.9886096972846 77.6883578013231,12.9886234027489 77.6881123844071,12.9886987453122 77.6880699604301,12.9885615104425 77.6879736215673,12.9885782820513 77.6879387099265,12.9884596131981 77.6876187601332,12.9885309603343 77.6876649569812,12.9888410499965 77.6877157814653,12.9890341276218 77.6880998105574,12.9889345471141 77.6884211173611,12.988895368792 77.6886801156181,12.9889548327941 77.6888646833309,12.9886661018388 77.6885397556523,12.9885953696564 77.6884830540981,12.9883091350888 77.6884402541474,12.9883181826684 77.6884358239768,12.9882719469757</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">46</SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">5863.225670255</SimpleData>
+		<SimpleData name="SHAPE.STLength()">349.310749110939</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.6863511367087,12.9877746770458 77.6864703557902,12.988208457161 77.6864836637278,12.9882598840676 77.6864976816849,12.9882941576083 77.6869242446106,12.9882515023432 77.6869277323173,12.9882132237871 77.6869169150392,12.9881139041426 77.6874532753491,12.988127477418 77.687433903452,12.9877828885648 77.6863470744838,12.9876613610733 77.6863511367087,12.9877746770458</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">47</SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">13079.315831635</SimpleData>
+		<SimpleData name="SHAPE.STLength()">491.962419996224</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.7153371011665,12.9890597017058 77.7152308845751,12.9885805521814 77.715278328513,12.9885728854223 77.7152135739742,12.9883333551271 77.7150114553827,12.9875646512196 77.7143078905529,12.9877512633655 77.7143554279999,12.9879511053512 77.7146468010076,12.9891760051879 77.7151443018963,12.9890852991698 77.715145514851,12.9890851076266 77.7153371011665,12.9890597017058</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">48</SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">3896.62919481</SimpleData>
+		<SimpleData name="SHAPE.STLength()">250.20349715397</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.6960801101859,12.9759681637678 77.6960881236007,12.9759197577458 77.6960908075077,12.9757165662183 77.6955304689279,12.9757367171086 77.6955444382443,12.9759297673967 77.6955505159905,12.9760137681661 77.6956041900151,12.9762450573657 77.6956406867284,12.9763751035575 77.6956962961965,12.9763731240386 77.6958848118639,12.9763710979516 77.6959619562265,12.9763867501281 77.6960130152812,12.9763754642621 77.6960358831803,12.9763489355213 77.6960573254642,12.9763032999872 77.6960714574237,12.9762577402609 77.6960702076672,12.9761418304176 77.6960607165708,12.9760853093892 77.6960521386058,12.9760350500664 77.6960475584228,12.9760171711404 77.6960474270059,12.9760049824644 77.6960502199071,12.9759927643673 77.6960566606812,12.9759797902658 77.6960801101859,12.9759681637678</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">49</SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">3670.16374371</SimpleData>
+		<SimpleData name="SHAPE.STLength()">266.924362742724</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.7054705232338,12.9715925926804 77.7053962895973,12.9712340845675 77.7045064643375,12.9714345510718 77.7046184750571,12.9716508904878 77.7046510083866,12.9717354157675 77.704745408979,12.971725892729 77.7048825159871,12.9717072920631 77.7049528391164,12.9716977510719 77.7050146518103,12.9716830834741 77.705015583653,12.9716828822694 77.7051511721046,12.971656486801 77.7054705232338,12.9715925926804</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">50</SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">2831.93295161</SimpleData>
+		<SimpleData name="SHAPE.STLength()">233.251487009382</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.7153754904975,12.9917384202105 77.7153088715128,12.9916638276728 77.7151486767904,12.9915235287979 77.7151005836762,12.9914788205594 77.7145359153156,12.9915732737613 77.7145867067743,12.9917515671969 77.7148864284991,12.9918134673978 77.7150968419628,12.9918650451691 77.7153519472159,12.9919312956635 77.7153672033414,12.9919177665138 77.7153794453816,12.9919004296269 77.715390201342,12.9918809564905 77.7153965944852,12.99186368076 77.7154007243704,12.9918399760409 77.7154004437311,12.9918141656509 77.7153985834691,12.9917776155481 77.7153754904975,12.9917384202105</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">51</SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">7049.376952165</SimpleData>
+		<SimpleData name="SHAPE.STLength()">350.700246746796</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.7162075983653,13.0087934704495 77.7168706442919,13.0086603957741 77.7168760455976,13.0085207740967 77.7168825270511,13.0080417257307 77.7168647317652,13.0079744507253 77.7160319992374,13.0082795466892 77.7158301803572,13.0083246819808 77.7160039170085,13.0088343498854 77.7162075983653,13.0087934704495</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">52</SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">8611.329425895</SimpleData>
+		<SimpleData name="SHAPE.STLength()">404.145741150654</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.7159434672289,12.9987753713272 77.7160041485326,12.9987735855152 77.7159492382657,12.9986531713349 77.7159843937038,12.9986360724942 77.716051729737,12.9987721851887 77.7161678043919,12.998768768204 77.7161473645719,12.9985141363962 77.7161001339676,12.9979257621427 77.7152251621889,12.9979301352877 77.7153518602478,12.9987927823341 77.7159434672289,12.9987753713272</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">53</SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">4227.677902525</SimpleData>
+		<SimpleData name="SHAPE.STLength()">314.480163699735</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.7112790522448,12.9788745916946 77.7113786969506,12.9790970943013 77.7114763487918,12.9790585601638 77.7115154379309,12.9791571033925 77.7121992602306,12.9789721434019 77.7124473437327,12.9789250978747 77.7123883126297,12.9786059140336 77.7119491539074,12.978697975351 77.7112790522448,12.9788745916946</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">54</SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">2700.568662735</SimpleData>
+		<SimpleData name="SHAPE.STLength()">227.604292864754</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.7174422137891,12.9671075240187 77.7173278067589,12.9671668724083 77.7173242720565,12.9671686121498 77.7172275690354,12.9672136778493 77.716976613691,12.9673306273316 77.7169734135357,12.9673320455947 77.7169645763818,12.9673357657568 77.7169683756119,12.967369161005 77.7169685486526,12.9673711005049 77.7169757131117,12.9674820713345 77.7169786823107,12.9675192720459 77.7169824724622,12.9675195106944 77.7169837649621,12.9675196137282 77.7173874421727,12.9675590528581 77.7173898635013,12.9675593699368 77.7176371030274,12.967600328876 77.7176395334766,12.9671912660468 77.7175036125396,12.9672424010294 77.7174422137891,12.9671075240187</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">55</SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">7411.347699105</SimpleData>
+		<SimpleData name="SHAPE.STLength()">376.87006767806</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.7070438461188,12.9796556899941 77.7070435098526,12.9796246377953 77.7070432076558,12.9795967316435 77.7070433329594,12.979594012129 77.7070523214409,12.9795070677044 77.7070525452661,12.9795054501661 77.7070625155432,12.9794491998108 77.7070628273747,12.9794477132464 77.7071249145657,12.9791926805268 77.7066966135091,12.9790623631362 77.7066478507585,12.9792406982246 77.7065052644138,12.9792173251731 77.7064024716518,12.9797018964241 77.7064788932084,12.9799858117842 77.7065504165959,12.9802033106663 77.7065827084766,12.9802705123034 77.7066374987009,12.980337294453 77.7066817974012,12.9803866733081 77.7067268361791,12.9804094603697 77.7067708783926,12.9804187326963 77.7067913507412,12.9804230435159 77.7069184880803,12.9800446534355 77.7070142428373,12.9796968373927 77.7070156364787,12.9796928508855 77.7070175603572,12.9796890796908 77.7070199804861,12.9796855904295 77.7070435416665,12.9796560716727 77.7070438461188,12.9796556899941</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">56</SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">4212.47754892</SimpleData>
+		<SimpleData name="SHAPE.STLength()">263.521348774254</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.7088895448624,12.9740432580048 77.7082305342562,12.973795915468 77.7080653706952,12.9742375264302 77.7080559013284,12.9742592044986 77.7087209732665,12.97451037219 77.7087454153273,12.9744430052286 77.7088895448624,12.9740432580048</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">57</SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">2570.499243465</SimpleData>
+		<SimpleData name="SHAPE.STLength()">250.698733488162</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.6933661738186,12.994532848849 77.693302330689,12.9944032806352 77.69321675084,12.9942020731037 77.6931782592116,12.9941115763356 77.6928074319522,12.9942647437316 77.6930806860351,12.9949327817566 77.6931870905392,12.9948894203109 77.6930842552205,12.994620397915 77.6933661738186,12.994532848849</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">58</SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">2335.004200225</SimpleData>
+		<SimpleData name="SHAPE.STLength()">231.140953387971</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.6930450713587,12.9915120678474 77.6931673657961,12.9914710586812 77.6928575889971,12.9907013676598 77.6927845653383,12.9907386199776 77.6926246934863,12.9908258581415 77.6929614226206,12.9915401185075 77.6930450713587,12.9915120678474</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">59</SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">6540.534508665</SimpleData>
+		<SimpleData name="SHAPE.STLength()">531.700851734317</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.6783705319124,12.9979690833538 77.6783929868259,12.9980114712322 77.6784289899385,12.9980957128389 77.6784554878667,12.9981800525134 77.6784593285026,12.9981972222337 77.6784682485077,12.9982107540359 77.6784853671492,12.9982266530079 77.6790259037712,12.9980486806822 77.6790371632345,12.9980758130559 77.6785896818513,12.9982152374584 77.6784810630147,12.9982464750723 77.678468640874,12.9982473196283 77.6784576199611,12.998242414179 77.6784442818044,12.9982260597395 77.6783494447932,12.9979755252011 77.6782831055079,12.9979957894819 77.6785546524233,12.9987378597137 77.6792776536768,12.9984563936797 77.6790463536107,12.9977990877444 77.6784756423716,12.9979938029054 77.6784531697358,12.9979438403954 77.6783705319124,12.9979690833538</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">60</SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">3964.921349135</SimpleData>
+		<SimpleData name="SHAPE.STLength()">253.146471639958</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.6949066577543,12.9903146324835 77.6947399181221,12.989689791362 77.6941602415405,12.9898181813098 77.6943565181459,12.9902953683354 77.6944628665525,12.9903202721244 77.6945468286562,12.9903305504291 77.6946377979294,12.9903296066446 77.6948710741876,12.9903154470549 77.6948726303227,12.9903153830302 77.6949066577543,12.9903146324835</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">61</SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">1415.5424283</SimpleData>
+		<SimpleData name="SHAPE.STLength()">256.292684283556</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.6969121152162,12.9781922885894 77.6968227981878,12.9779144714766 77.6967479757255,12.9777563021084 77.6965363752176,12.977570868703 77.6963669244587,12.9774519238388 77.6962532527105,12.9773885454966 77.6962204028433,12.9774419499845 77.6962118906186,12.9774560558166 77.6963811877655,12.9775480350762 77.6965577298713,12.9776465905408 77.6966309279788,12.9778800670497 77.6967614354995,12.9782311978844 77.6969121152162,12.9781922885894</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">62</SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">1291.74955806</SimpleData>
+		<SimpleData name="SHAPE.STLength()">300.329140823064</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.7184644246527,12.9815846551291 77.7182721942475,12.9810424793337 77.7181746568981,12.981054533916 77.7183269174126,12.9815634175124 77.7183038218376,12.981570062947 77.7181333594745,12.9810148461558 77.7180743611071,12.9810229176494 77.7182424101562,12.9816289732979 77.7184644246527,12.9815846551291</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">63</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">2350.890248245</SimpleData>
+		<SimpleData name="SHAPE.STLength()">229.488336305009</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.6855233704507,13.0444318450388 77.6850224718948,13.0443992331941 77.6850333690101,13.0445152674196 77.684994367477,13.0445156721738 77.6850307652181,13.045106862421 77.6850610097693,13.0450856345879 77.6851032819013,13.0450493428772 77.6855233704507,13.0444318450388</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">64</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">8683.66354146</SimpleData>
+		<SimpleData name="SHAPE.STLength()">499.789935160515</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.7069699298866,13.0161609405553 77.7065937163805,13.016086723622 77.7062388988885,13.0173046849263 77.7060472305068,13.0177884811759 77.7064243078661,13.0180077470593 77.706510720543,13.01773398461 77.7069699298866,13.0161609405553</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">65</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">6278.53628001</SimpleData>
+		<SimpleData name="SHAPE.STLength()">400.426197244311</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.7240335783328,12.9641532984579 77.7240322548679,12.9641586893429 77.7240301026519,12.964163820243 77.7240271721088,12.9641685709473 77.7240235318979,12.964172830152 77.7240126828665,12.9641836990002 77.7240102907368,12.9641858920802 77.7240029994134,12.9641919820046 77.7239983562255,12.9641952858803 77.7239932411705,12.9641978437594 77.7239877793903,12.9641995930624 77.7239719794411,12.9642033438561 77.7239700964482,12.9642037393613 77.7239659324435,12.9642042662437 77.7239257522612,12.9642070762217 77.7239235251347,12.9642071654803 77.7239208495746,12.9642070977337 77.7234089827724,12.9641759349618 77.7233838685588,12.964794035566 77.7239866903145,12.9647960253369 77.7239711512895,12.9644878623244 77.7244485997041,12.9644685229874 77.7244455384429,12.9644111923931 77.7246234475942,12.9644117198107 77.7246264222204,12.9642372104836 77.7240335783328,12.9641532984579</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">66</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">3909.81052388</SimpleData>
+		<SimpleData name="SHAPE.STLength()">256.85998235815</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.7572603309249,12.9621297339396 77.7569501607191,12.9620929655955 77.7568003475706,12.962078540267 77.7568269372137,12.9625286257047 77.7568495261339,12.9628094574201 77.7569950916009,12.9628097300533 77.7573096333911,12.9628103187955 77.7572603309249,12.9621297339396</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">67</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">19915.866240155</SimpleData>
+		<SimpleData name="SHAPE.STLength()">737.795191857051</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.754905189178,12.98992698855 77.7548361482553,12.9898088683644 77.7548349218658,12.9898065833092 77.7546835343189,12.9894984427468 77.7546828360194,12.9894969334672 77.7546433128759,12.9894060488825 77.7546427923251,12.9894047870358 77.7545750717841,12.989231209229 77.7545748991436,12.9892307566864 77.7544305947794,12.9888422232082 77.7543502660279,12.988646185867 77.7542198923915,12.9883280199364 77.7540641342977,12.9879682601101 77.7536197864306,12.9880633388307 77.7531262659376,12.9880694688175 77.7535085403984,12.9892520813829 77.7540251576127,12.9890243287249 77.754238423745,12.9901295978878 77.7544013508905,12.9900602108683 77.754905189178,12.98992698855</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>UBL Area </name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">68</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-09-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Recreational</SimpleData>
+		<SimpleData name="LULC_Desc_3">Recreational</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Recreational-UBL Area -Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">UBL Area </SimpleData>
+		<SimpleData name="SHAPE.STArea()">11819.465071555</SimpleData>
+		<SimpleData name="SHAPE.STLength()">475.589646725439</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.7286720400199,12.9732680295131 77.7292742034216,12.9738790578895 77.7291593982533,12.9739669036014 77.7296850560125,12.9745396385132 77.7297936199842,12.9744186565527 77.7298724359763,12.9743148469066 77.7299317942566,12.9742130608694 77.7299855768057,12.9740882222015 77.7300050991335,12.9739480864654 77.7299965945982,12.9737153703276 77.7299597643352,12.9735633501286 77.729952007244,12.9735313312182 77.7299457221031,12.9735053890096 77.7299428322493,12.9734934608734 77.729936857878,12.9734788586992 77.7297406599412,12.9732805276243 77.7297322918489,12.9732720228531 77.7296816715855,12.9732315450896 77.729632104047,12.9732003399369 77.729570560344,12.9731661069065 77.7295444789616,12.9731544492957 77.7295190981403,12.973151954182 77.7293874390414,12.9731673126639 77.728925558628,12.9732354385934 77.7289250399096,12.9732355108846 77.7286720400199,12.9732680295131</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">69</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-09-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Recreational</SimpleData>
+		<SimpleData name="LULC_Desc_3">Recreational</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Recreational-Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">3533.59597279</SimpleData>
+		<SimpleData name="SHAPE.STLength()">246.040790434823</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.7271024108342,12.9897872005104 77.7270959413935,12.9897662737822 77.7270955929589,12.9897650714742 77.7270601353219,12.9896342301007 77.7270596021791,12.9896319719142 77.7270382466963,12.9895262607878 77.7270219404626,12.9894674868786 77.7270027624215,12.9894603873914 77.7269964271501,12.9894574855119 77.7269929050013,12.9894553300711 77.7269388861525,12.9894188500997 77.7269357835028,12.9894165592685 77.7269324403582,12.9894135871295 77.7269214742871,12.9894028323002 77.7269190801185,12.9894002973541 77.7269178089002,12.9893987786258 77.7268944236569,12.9893695524839 77.7268910200619,12.9893646713058 77.7268892013213,12.9893613489239 77.7268569818219,12.9892960726585 77.7268553133195,12.9892922518588 77.7268091084919,12.9891710201127 77.7264125952476,12.9892683273751 77.7267066183256,12.9899136364288 77.7271024108342,12.9897872005104</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">70</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">15864.81368833</SimpleData>
+		<SimpleData name="SHAPE.STLength()">670.430924171819</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.7556812124564,12.9910127860109 77.7554678882153,12.990731389699 77.7551636235479,12.9903274397227 77.7551627011453,12.9903261577511 77.7550010789238,12.9900908556204 77.754999930853,12.9900890737921 77.7549996718116,12.9900886384265 77.7549212129381,12.9899544043727 77.7544186995348,12.9900863173092 77.7542432540369,12.9901546347667 77.7542578033915,12.9902300356526 77.7543293123909,12.9906367816578 77.7543893398551,12.9907391143716 77.7544024468972,12.9908226270478 77.7544090342621,12.9909779113443 77.7543965474323,12.9911716384764 77.7543575301383,12.9911696620886 77.7543651427904,12.9909759866468 77.7543609925557,12.9908206764969 77.7543406269348,12.9907420212029 77.7543003303164,12.9906440798689 77.7540072731539,12.9907178739026 77.7541044215408,12.9912869939656 77.7543717808302,12.9912451970958 77.7543732029755,12.9912450185104 77.7543860600673,12.9912438062857 77.7547662579808,12.9911880888795 77.7551596317748,12.991133363033 77.7554531300316,12.9910950519635 77.7555635855249,12.991065094614 77.7556812124564,12.9910127860109</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Inner Circle Municipal Park</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">71</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-09-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Recreational</SimpleData>
+		<SimpleData name="LULC_Desc_3">Recreational</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Recreational-Inner Circle Municipal Park-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Inner Circle Municipal Park</SimpleData>
+		<SimpleData name="SHAPE.STArea()">12149.82083062</SimpleData>
+		<SimpleData name="SHAPE.STLength()">452.245336252846</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.7486282862685,12.9722114389868 77.7483083657881,12.9706651051244 77.7482151222076,12.9706911063922 77.7481507147574,12.9707152275251 77.7481424745191,12.9707194039801 77.7480782316044,12.9707519640962 77.7479631297607,12.9708258596721 77.7478477196638,12.9709284672754 77.7477721627254,12.9710431875291 77.7477183779272,12.9711591989611 77.7477129434654,12.9711752128427 77.7476820524058,12.9712662401205 77.7476702137934,12.9713861669672 77.7476716258222,12.9715147125319 77.747671528845,12.9715172880542 77.7476611201627,12.9716380046636 77.7476977160398,12.9717752606002 77.7477258767711,12.9718509044234 77.7477983333011,12.9719405832171 77.7478751622172,12.972009711038 77.7479346549819,12.9720599499574 77.747998798361,12.9720986177125 77.7480765163462,12.9721436947744 77.7481695762471,12.9721700055542 77.7483575222545,12.9722033974429 77.7485128242569,12.9722181416476 77.7486282862685,12.9722114389868</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">72</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">3490.77252112</SimpleData>
+		<SimpleData name="SHAPE.STLength()">245.216886527428</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.7346693110134,13.0324245447673 77.7346324499617,13.032428852736 77.7345544328674,13.0324404263785 77.7345288072894,13.0324443889418 77.7342897753447,13.0324870050921 77.7343421083806,13.0327385218214 77.7343422803018,13.0327384883891 77.734349474496,13.0327739244566 77.7343837760159,13.0329471585654 77.7344600821682,13.0331799560178 77.7348842583922,13.0330381939586 77.7347478339064,13.0326022485091 77.7347089136987,13.0326098302584 77.7346693110134,13.0324245447673</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">73</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">3472.54934679</SimpleData>
+		<SimpleData name="SHAPE.STLength()">237.835019105102</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.733912637555,13.0315774209285 77.7337696533384,13.0311904658287 77.7332696081141,13.0312773572105 77.7331812061979,13.0312947337391 77.7333374127309,13.0318121048436 77.7338864789661,13.0315882128616 77.733912637555,13.0315774209285</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">74</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">09-00-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Others</SimpleData>
+		<SimpleData name="LULC_Desc_2">Others</SimpleData>
+		<SimpleData name="LULC_Desc_3">Others</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking area</SimpleData>
+		<SimpleData name="FinalRemarks">Others-Bengaluru-Parking area</SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">23222.01823854</SimpleData>
+		<SimpleData name="SHAPE.STLength()">653.733518734245</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5899172121977,13.0001384035691 77.5899170201651,13.0001309069671 77.589887344853,12.9999059150568 77.5898506169798,12.9996912158763 77.5898295211611,12.9995630200988 77.5898291696144,12.9995587069891 77.5898300925639,12.9994663440348 77.5898304639073,12.9994621763932 77.5898316441661,12.9994576546648 77.5898544586999,12.9993937537697 77.5898564600018,12.9993894253156 77.5898571792743,12.9993882454792 77.5898881238759,12.9993402868069 77.5898905742153,12.9993370497749 77.5898934906621,12.9993342031192 77.5898968085632,12.9993318099456 77.590016822774,12.9992580981921 77.5900883342776,12.9992124649117 77.5901653870928,12.9991367949018 77.5901858728298,12.9991115490525 77.5902213731044,12.9990455611058 77.5902720169979,12.9988854855047 77.5902776847331,12.998829010289 77.5902714985551,12.9987170902524 77.5902336027661,12.9985003718685 77.5901788995119,12.9983201148958 77.5895584474889,12.9984455513073 77.5893837018677,12.9985190046972 77.5892673038881,12.9985775339485 77.5891805259894,12.9986716233071 77.5891375460701,12.9987581043236 77.5891093381066,12.9988587809588 77.5890885923241,12.9989737243169 77.5890532958292,12.9990959842856 77.5890034504315,12.9992255599417 77.5889098059153,12.9993627439202 77.5888452609291,12.999485294697 77.5888023551714,12.9995789464398 77.5887742223229,12.9996867929018 77.5887684724452,12.9998374423005 77.5887694392519,12.9999306555776 77.5887707035597,13.0000525509043 77.5887759848235,13.0002895663315 77.5888880056977,13.0002745650121 77.589401650181,13.0002072911731 77.5899172121977,13.0001384035691</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">75</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">09-00-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Others</SimpleData>
+		<SimpleData name="LULC_Desc_2">Others</SimpleData>
+		<SimpleData name="LULC_Desc_3">Others</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking</SimpleData>
+		<SimpleData name="FinalRemarks">Others-Parking</SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">537.01073067</SimpleData>
+		<SimpleData name="SHAPE.STLength()">137.51479494199</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5925498906996,13.0540825460125 77.5925423786134,13.0540323733927 77.5925367492997,13.0540216112474 77.5924838250549,13.054018566119 77.5920595923271,13.0540561225549 77.5920584117888,13.0540562021471 77.5920012545465,13.0540588512233 77.5919882617538,13.0540686102458 77.5919834733769,13.054105872402 77.5919922706372,13.0541529315967 77.5925498906996,13.0540825460125</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">76</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">09-00-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Others</SimpleData>
+		<SimpleData name="LULC_Desc_2">Others</SimpleData>
+		<SimpleData name="LULC_Desc_3">Others</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking</SimpleData>
+		<SimpleData name="FinalRemarks">Others-Parking</SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">2070.803562915</SimpleData>
+		<SimpleData name="SHAPE.STLength()">330.638298551585</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5932118328761,13.0547417906728 77.5932122957471,13.0547304253883 77.5931259133721,13.0547339198581 77.5931250565931,13.0547339410993 77.5931236409402,13.0547339200638 77.5928386100156,13.0547224538305 77.5927442144658,13.0547210280412 77.5927080012129,13.0547213911869 77.5927031972908,13.0547210273956 77.5926982946428,13.0547197683905 77.5926662422061,13.0547080515866 77.5926621900825,13.0547061887809 77.5926584989658,13.0547037143553 77.5926552652906,13.0547006929572 77.5926525735404,13.054697203524 77.5926504940406,13.0546933372212 77.5926380054847,13.0546647785132 77.5926368101891,13.0546614682864 77.5926360617172,13.0546580358224 77.5926243715659,13.0545799610796 77.5922828712572,13.0546213609814 77.5922781124002,13.0546215232983 77.5922733954205,13.0546208885367 77.5922688599577,13.0546194754877 77.5922646402779,13.0546173259828 77.5922608612989,13.0546145036549 77.592257634892,13.0546110920553 77.5922550565706,13.0546071921794 77.5922532026624,13.0546029194778 77.5922521280496,13.0545984004378 77.5922296147716,13.0544480458216 77.592228960048,13.0544436734537 77.5922109140112,13.0543231541334 77.5920283653733,13.0543460089061 77.5920317656314,13.0543641997432 77.5920319101518,13.0543650682989 77.5920692626795,13.0545764184335 77.5921175248839,13.0546172494096 77.5921180928028,13.054617717114 77.5923247211562,13.0547925300981 77.5923251684349,13.0547929167992 77.5923809360478,13.0548421945247 77.5924055972666,13.0548467733821 77.5932118328761,13.0547417906728</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">77</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">09-00-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Others</SimpleData>
+		<SimpleData name="LULC_Desc_2">Others</SimpleData>
+		<SimpleData name="LULC_Desc_3">Others</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking</SimpleData>
+		<SimpleData name="FinalRemarks">Others-Parking</SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">394.117196065</SimpleData>
+		<SimpleData name="SHAPE.STLength()">91.5433683583348</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.592600449536,13.0544201978742 77.5922880078098,13.0544648297462 77.5923029050457,13.05456431712 77.5926163394545,13.0545263199906 77.592600449536,13.0544201978742</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">78</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">09-00-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Others</SimpleData>
+		<SimpleData name="LULC_Desc_2">Others</SimpleData>
+		<SimpleData name="LULC_Desc_3">Others</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking</SimpleData>
+		<SimpleData name="FinalRemarks">Others-Parking</SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">589.82761918</SimpleData>
+		<SimpleData name="SHAPE.STLength()">140.731310544263</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5925709856739,13.0542234278658 77.5925579227075,13.0541361816906 77.5920022517305,13.0542063228192 77.5920183833134,13.0542926149865 77.5922308224365,13.0542660175778 77.5925709856739,13.0542234278658</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">79</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">1817.63494265</SimpleData>
+		<SimpleData name="SHAPE.STLength()">198.723869604266</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.6099029725525,13.0148650126109 77.6096588896127,13.0141833627751 77.6094861228882,13.0144461237543 77.6096965752316,13.0149470465828 77.6099029725525,13.0148650126109</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">80</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">6147.08234023</SimpleData>
+		<SimpleData name="SHAPE.STLength()">317.509606659729</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5912006614165,13.0232603421585 77.591176107725,13.0226137733216 77.590970295133,13.0226162268783 77.5902818145725,13.0229784411838 77.5902792159041,13.0230130578567 77.5902828476466,13.0230557359333 77.5903045527573,13.023159588288 77.5903238882181,13.0232264126739 77.5903240329692,13.0232269532876 77.5903642794132,13.0233916075241 77.5912006614165,13.0232603421585</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">81</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">09-00-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Others</SimpleData>
+		<SimpleData name="LULC_Desc_2">Others</SimpleData>
+		<SimpleData name="LULC_Desc_3">Others</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking</SimpleData>
+		<SimpleData name="FinalRemarks">Others-Parking</SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">353.500117075</SimpleData>
+		<SimpleData name="SHAPE.STLength()">89.1697859939271</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5925924194256,13.0543665703135 77.5925790177249,13.054277066251 77.5922657659254,13.0543162865029 77.5922799786832,13.0544112021543 77.5925924194256,13.0543665703135</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">82</SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">5635.324802835</SimpleData>
+		<SimpleData name="SHAPE.STLength()">393.76831351185</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.6535706073308,13.0612151217297 77.6535291721071,13.0610342980493 77.6527822560468,13.0610795149451 77.6526898341403,13.0610851098045 77.6522273404397,13.0611131074326 77.6520671566483,13.061110157619 77.6520669665269,13.0611228160921 77.652062940879,13.0613909787294 77.6528260897047,13.0614040121884 77.6536027762777,13.0613555090034 77.6535706073308,13.0612151217297</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">83</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">7437.10759206</SimpleData>
+		<SimpleData name="SHAPE.STLength()">618.174374188324</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.6155903892155,13.0934093614101 77.6149284279248,13.0934291626137 77.6151701614539,13.0944319084338 77.6154983472213,13.0944076534951 77.615499243575,13.0944076154926 77.6155002152315,13.0944076390617 77.6155975722454,13.0944133682641 77.6155925630197,13.0942245513365 77.6155877473246,13.0941692841471 77.6155805207398,13.0940863562902 77.6155766918042,13.0940424060946 77.6155496110736,13.0938988735544 77.615531446633,13.0938025984896 77.6155246911161,13.0937826157434 77.6155173486942,13.0937736488589 77.615511370263,13.0937698293423 77.6154930010792,13.0937685160174 77.6154207263927,13.0937701815042 77.6153986732777,13.093773393704 77.6150760056696,13.0938203909662 77.6150711298059,13.0937882228546 77.6153937973754,13.0937412256061 77.6154168654947,13.0937378657922 77.6154189134027,13.0937376941481 77.6154931359536,13.0937359845116 77.6154946229761,13.0937360245352 77.6155180502299,13.09373769941 77.6155208055442,13.0937381276206 77.6155234476873,13.0937390010343 77.6155259014046,13.0937402947742 77.6155376856772,13.0937478235341 77.6155397654897,13.0937493960149 77.6155415652654,13.0937512677428 77.6155524351218,13.0937645433612 77.6155537768355,13.0937664458915 77.6155550259185,13.09376900253 77.6155552442621,13.0937696056025 77.6155632983372,13.0937934264286 77.615563861038,13.0937955690391 77.6155822354181,13.093892959493 77.615609463606,13.0940372755974 77.6156096802135,13.0940388489541 77.6156135783216,13.0940835889337 77.6156208049171,13.0941665167876 77.6156256625168,13.0942222605526 77.6156257168988,13.0942232212335 77.6156308133761,13.0944153238911 77.6157168234844,13.0944203849044 77.6158156579778,13.0944269961226 77.6155903892155,13.0934093614101</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Bengaluru</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">84</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-01-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Built-up (Urban)</SimpleData>
+		<SimpleData name="LULC_Desc_3">Built-up Urban</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bengaluru-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Bengaluru</SimpleData>
+		<SimpleData name="SHAPE.STArea()">3418.54745339</SimpleData>
+		<SimpleData name="SHAPE.STLength()">477.259945740604</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.6165520119768,13.0986375346686 77.6159139667686,13.0985697027577 77.6159209655711,13.0985397531254 77.6167614591567,13.0986250073057 77.6167723115778,13.0985089973576 77.6157127612863,13.098398676906 77.6156900827737,13.0985602513379 77.6156803628635,13.0987322226449 77.6164586066969,13.0987649580388 77.6164455506573,13.0989393436402 77.6165292845543,13.0989432365057 77.6165520119768,13.0986375346686</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">85</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">09-00-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Others</SimpleData>
+		<SimpleData name="LULC_Desc_2">Others</SimpleData>
+		<SimpleData name="LULC_Desc_3">Others</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking</SimpleData>
+		<SimpleData name="FinalRemarks">Others-Parking</SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">984.60015478</SimpleData>
+		<SimpleData name="SHAPE.STLength()">127.509122012314</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.6010555925508,12.9611196800601 77.6009715740578,12.9607670378541 77.6007245545086,12.960918901081 77.6008026082462,12.9611595450491 77.6010555925508,12.9611196800601</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">86</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">09-00-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Others</SimpleData>
+		<SimpleData name="LULC_Desc_2">Others</SimpleData>
+		<SimpleData name="LULC_Desc_3">Others</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking</SimpleData>
+		<SimpleData name="FinalRemarks">Others-Parking</SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">3283.291960045</SimpleData>
+		<SimpleData name="SHAPE.STLength()">314.521254713749</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.6002292206586,12.9624807213841 77.6000739351413,12.9619026167256 77.5999495781856,12.961369021216 77.599922282198,12.9612863209133 77.5997757841732,12.9613778446238 77.5997741639055,12.9613788247693 77.5996773533458,12.9614354368071 77.5996510125554,12.9614508405127 77.6000772502381,12.9625151065057 77.6002292206586,12.9624807213841</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name></name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">87</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">09-00-00-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Others</SimpleData>
+		<SimpleData name="LULC_Desc_2">Others</SimpleData>
+		<SimpleData name="LULC_Desc_3">Others</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Others-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text"></SimpleData>
+		<SimpleData name="SHAPE.STArea()">2737.533246145</SimpleData>
+		<SimpleData name="SHAPE.STLength()">233.316737051361</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5483142135201,12.9473000822732 77.5482451187058,12.9471088782336 77.5478881571985,12.947191727752 77.5479484642867,12.9473036592457 77.5482458603266,12.9478556358205 77.5484988754942,12.9478110893674 77.5483910567787,12.9475127283222 77.5483816498083,12.9474866966288 77.5483142135201,12.9473000822732</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Depot 13 Kamayka</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#parking">
+		<SimpleData name="OBJECTID">88</SimpleData>
+		<SimpleData name="KGISLULCID"></SimpleData>
+		<SimpleData name="LULC_Code">01-07-01-00-00</SimpleData>
+		<SimpleData name="LULC_Desc_1">Built-up</SimpleData>
+		<SimpleData name="LULC_Desc_2">Transportation Nodes</SimpleData>
+		<SimpleData name="LULC_Desc_3">Bus Terminus</SimpleData>
+		<SimpleData name="LULC_Desc_4"></SimpleData>
+		<SimpleData name="LULC_Desc_5"></SimpleData>
+		<SimpleData name="Remarks">Parking Area</SimpleData>
+		<SimpleData name="FinalRemarks">Bus Terminus-Depot 13 Kamayka-Parking Area</SimpleData>
+		<SimpleData name="Optional_Text">Depot 13 Kamayka</SimpleData>
+		<SimpleData name="SHAPE.STArea()">18264.687630775</SimpleData>
+		<SimpleData name="SHAPE.STLength()">922.8864783271</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>77.5546307057428,12.926223445922 77.5544342924933,12.9256943015701 77.5548276189144,12.9255565823068 77.5549232243941,12.925523107182 77.5548932784442,12.9254852046852 77.5547020543166,12.9250137734932 77.5545244674123,12.9244453979786 77.5542810058684,12.9237343532801 77.5540588850544,12.9238104014283 77.5537762405626,12.9239062303015 77.5537468352273,12.9242382562079 77.5537466932237,12.9242394176443 77.5536580847669,12.9248091051984 77.5538622016358,12.9248542902464 77.5539665821923,12.9249339452975 77.5540153707803,12.9252382465757 77.554100606496,12.9262944974925 77.5541018359767,12.9262943942086 77.5541343010695,12.9262927347959 77.5541351638572,12.926292710992 77.554255564824,12.9262926681176 77.5543423120669,12.9262887164791 77.5543869143278,12.926284834964 77.5544360937095,12.9262770996359 77.554553173984,12.9262509609917 77.5546307057428,12.926223445922</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>77.5547086244903,12.9254119374343 77.5544536196862,12.9254980979984 77.5542628619313,12.924952559745 77.5545479158679,12.9248684172724 77.5547086244903,12.9254119374343</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

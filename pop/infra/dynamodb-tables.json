@@ -1,0 +1,151 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Description": "ParkWise — DynamoDB Infrastructure for Parking Locations and Time-Series Events",
+  "Parameters": {
+    "Environment": {
+      "Type": "String",
+      "Default": "dev",
+      "AllowedValues": ["dev", "staging", "prod"],
+      "Description": "Deployment environment"
+    }
+  },
+  "Resources": {
+    "ParkingLocationsTable": {
+      "Type": "AWS::DynamoDB::Table",
+      "Properties": {
+        "TableName": {
+          "Fn::Sub": "ParkWise-Locations-${Environment}"
+        },
+        "BillingMode": "PAY_PER_REQUEST",
+        "AttributeDefinitions": [
+          {
+            "AttributeName": "id",
+            "AttributeType": "S"
+          },
+          {
+            "AttributeName": "source",
+            "AttributeType": "S"
+          },
+          {
+            "AttributeName": "type",
+            "AttributeType": "S"
+          },
+          {
+            "AttributeName": "createdAt",
+            "AttributeType": "S"
+          },
+          {
+            "AttributeName": "pricePerHour",
+            "AttributeType": "N"
+          }
+        ],
+        "KeySchema": [
+          {
+            "AttributeName": "id",
+            "KeyType": "HASH"
+          }
+        ],
+        "GlobalSecondaryIndexes": [
+          {
+            "IndexName": "BySourceIndex",
+            "KeySchema": [
+              {
+                "AttributeName": "source",
+                "KeyType": "HASH"
+              },
+              {
+                "AttributeName": "createdAt",
+                "KeyType": "RANGE"
+              }
+            ],
+            "Projection": {
+              "ProjectionType": "ALL"
+            }
+          },
+          {
+            "IndexName": "ByTypeIndex",
+            "KeySchema": [
+              {
+                "AttributeName": "type",
+                "KeyType": "HASH"
+              },
+              {
+                "AttributeName": "pricePerHour",
+                "KeyType": "RANGE"
+              }
+            ],
+            "Projection": {
+              "ProjectionType": "ALL"
+            }
+          }
+        ],
+        "PointInTimeRecoverySpecification": {
+          "PointInTimeRecoveryEnabled": true
+        },
+        "Tags": [
+          {
+            "Key": "Project",
+            "Value": "ParkWise"
+          },
+          {
+            "Key": "Environment",
+            "Value": { "Ref": "Environment" }
+          }
+        ]
+      }
+    },
+    "ParkingEventsTable": {
+      "Type": "AWS::DynamoDB::Table",
+      "Properties": {
+        "TableName": {
+          "Fn::Sub": "ParkWise-Events-${Environment}"
+        },
+        "BillingMode": "PAY_PER_REQUEST",
+        "AttributeDefinitions": [
+          {
+            "AttributeName": "parkingId",
+            "AttributeType": "S"
+          },
+          {
+            "AttributeName": "timestamp",
+            "AttributeType": "S"
+          }
+        ],
+        "KeySchema": [
+          {
+            "AttributeName": "parkingId",
+            "KeyType": "HASH"
+          },
+          {
+            "AttributeName": "timestamp",
+            "KeyType": "RANGE"
+          }
+        ],
+        "TimeToLiveSpecification": {
+          "AttributeName": "expiresAt",
+          "Enabled": true
+        },
+        "Tags": [
+          {
+            "Key": "Project",
+            "Value": "ParkWise"
+          },
+          {
+            "Key": "Environment",
+            "Value": { "Ref": "Environment" }
+          }
+        ]
+      }
+    }
+  },
+  "Outputs": {
+    "ParkingLocationsTableName": {
+      "Description": "DynamoDB table name for parking locations",
+      "Value": { "Ref": "ParkingLocationsTable" }
+    },
+    "ParkingEventsTableName": {
+      "Description": "DynamoDB table name for crowdsourced events",
+      "Value": { "Ref": "ParkingEventsTable" }
+    }
+  }
+}

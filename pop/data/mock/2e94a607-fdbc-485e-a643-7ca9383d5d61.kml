@@ -1,0 +1,3271 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="amenity_parking_bengaluru_urban" id="amenity_parking_bengaluru_urban">
+	<SimpleField name="full_id" type="string"></SimpleField>
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_type" type="string"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+	<SimpleField name="smoothness" type="string"></SimpleField>
+	<SimpleField name="operator:type" type="string"></SimpleField>
+	<SimpleField name="foot" type="string"></SimpleField>
+	<SimpleField name="entrance" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="payment:cash" type="string"></SimpleField>
+	<SimpleField name="lit" type="string"></SimpleField>
+	<SimpleField name="maxstay" type="string"></SimpleField>
+	<SimpleField name="surface" type="string"></SimpleField>
+	<SimpleField name="covered" type="string"></SimpleField>
+	<SimpleField name="designation" type="string"></SimpleField>
+	<SimpleField name="addr:housename" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="supervised" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="capacity:women" type="string"></SimpleField>
+	<SimpleField name="capacity:parent" type="string"></SimpleField>
+	<SimpleField name="capacity:disabled" type="string"></SimpleField>
+	<SimpleField name="operator" type="string"></SimpleField>
+	<SimpleField name="level" type="string"></SimpleField>
+	<SimpleField name="capacity" type="string"></SimpleField>
+	<SimpleField name="wpt_symbol" type="string"></SimpleField>
+	<SimpleField name="wpt_description" type="string"></SimpleField>
+	<SimpleField name="ele" type="string"></SimpleField>
+	<SimpleField name="park_ride" type="string"></SimpleField>
+	<SimpleField name="wheelchair" type="string"></SimpleField>
+	<SimpleField name="barrier" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="parking" type="string"></SimpleField>
+	<SimpleField name="fee" type="string"></SimpleField>
+	<SimpleField name="access" type="string"></SimpleField>
+</Schema>
+<Folder><name>amenity_parking_bengaluru_urban</name>
+  <Placemark>
+	<name>Garuda Mall Parking</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n312545031</SimpleData>
+		<SimpleData name="osm_id">312545031</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">underground</SimpleData>
+		<SimpleData name="fee">yes</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6094191,12.9703806</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n316993808</SimpleData>
+		<SimpleData name="osm_id">316993808</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">street_side</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6454368,12.9600641</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n459471357</SimpleData>
+		<SimpleData name="osm_id">459471357</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5858156,12.954643</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n560369938</SimpleData>
+		<SimpleData name="osm_id">560369938</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="addr:street">Bannerghatta Road</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5984624,12.894851</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Nandini Restaurant Parking</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n582840484</SimpleData>
+		<SimpleData name="osm_id">582840484</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7337716,12.989144</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n663309915</SimpleData>
+		<SimpleData name="osm_id">663309915</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5909682,12.9744265</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Gate 4: Corporation Circle</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n663592924</SimpleData>
+		<SimpleData name="osm_id">663592924</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="barrier">gate</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5955056,12.9752226</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n663941094</SimpleData>
+		<SimpleData name="osm_id">663941094</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5956588,12.9744568</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n663941126</SimpleData>
+		<SimpleData name="osm_id">663941126</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5932537,12.9777244</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n734864117</SimpleData>
+		<SimpleData name="osm_id">734864117</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.562606,13.0155785</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n806309408</SimpleData>
+		<SimpleData name="osm_id">806309408</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="wheelchair">no</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.548111,13.0453098</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n863827219</SimpleData>
+		<SimpleData name="osm_id">863827219</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">multi-storey</SimpleData>
+		<SimpleData name="fee">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5515655,13.0097345</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ISKCON Temple Parking</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n863827282</SimpleData>
+		<SimpleData name="osm_id">863827282</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="fee">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5516244,13.0092724</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Nokia Solutions and Networks</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n929273701</SimpleData>
+		<SimpleData name="osm_id">929273701</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="park_ride">no</SimpleData>
+		<SimpleData name="parking">multi-storey</SimpleData>
+		<SimpleData name="fee">no</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.618867,13.0468945</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sagar Hospital Parking</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1070254109</SimpleData>
+		<SimpleData name="osm_id">1070254109</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5998977,12.9276723</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1085604211</SimpleData>
+		<SimpleData name="osm_id">1085604211</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5648212,13.0295181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NIAS</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1085604375</SimpleData>
+		<SimpleData name="osm_id">1085604375</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5634442,13.0295577</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HDFC Bank Parking</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1123348991</SimpleData>
+		<SimpleData name="osm_id">1123348991</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7163915,12.9592574</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Vagdevi School Parking</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1137521788</SimpleData>
+		<SimpleData name="osm_id">1137521788</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7104038,12.9454128</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1184210527</SimpleData>
+		<SimpleData name="osm_id">1184210527</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5706728,13.0189663</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1184210555</SimpleData>
+		<SimpleData name="osm_id">1184210555</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5692344,13.0134359</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Parking for High Voltage Engineering</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1184210593</SimpleData>
+		<SimpleData name="osm_id">1184210593</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="wpt_symbol">Flag, Blue</SimpleData>
+		<SimpleData name="wpt_description">28-JAN-11 12:27:55AM</SimpleData>
+		<SimpleData name="ele">941.729980</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.571374,13.0144226</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1185581606</SimpleData>
+		<SimpleData name="osm_id">1185581606</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5705882,13.0162227</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1185581607</SimpleData>
+		<SimpleData name="osm_id">1185581607</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5704768,13.0169754</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1185581608</SimpleData>
+		<SimpleData name="osm_id">1185581608</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5703905,13.0169802</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1185581609</SimpleData>
+		<SimpleData name="osm_id">1185581609</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5710469,13.0154714</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1185581613</SimpleData>
+		<SimpleData name="osm_id">1185581613</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5712755,13.0177195</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1185581616</SimpleData>
+		<SimpleData name="osm_id">1185581616</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5717684,13.0168433</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1185581621</SimpleData>
+		<SimpleData name="osm_id">1185581621</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5686314,13.0188203</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1185581626</SimpleData>
+		<SimpleData name="osm_id">1185581626</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5684375,13.0173333</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1185581631</SimpleData>
+		<SimpleData name="osm_id">1185581631</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="wpt_symbol">Flag, Blue</SimpleData>
+		<SimpleData name="wpt_description">29-JAN-11 11:02:25PM</SimpleData>
+		<SimpleData name="ele">944.373535</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5704427,13.016567</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1185581642</SimpleData>
+		<SimpleData name="osm_id">1185581642</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="wpt_symbol">Flag, Blue</SimpleData>
+		<SimpleData name="wpt_description">29-JAN-11 11:06:32PM</SimpleData>
+		<SimpleData name="ele">941.249268</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.570411,13.0168022</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1185581645</SimpleData>
+		<SimpleData name="osm_id">1185581645</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="wpt_symbol">Flag, Blue</SimpleData>
+		<SimpleData name="wpt_description">29-JAN-11 11:50:10PM</SimpleData>
+		<SimpleData name="ele">936.442871</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5699705,13.0149893</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1185581667</SimpleData>
+		<SimpleData name="osm_id">1185581667</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="wpt_description">31-JAN-11 2:09:31AM</SimpleData>
+		<SimpleData name="ele">934.760498</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5702515,13.0187044</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1185685861</SimpleData>
+		<SimpleData name="osm_id">1185685861</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="wpt_description">30-JAN-11 12:56:08AM</SimpleData>
+		<SimpleData name="ele">945.575195</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5697457,13.0154589</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1185685864</SimpleData>
+		<SimpleData name="osm_id">1185685864</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="wpt_symbol">Flag, Blue</SimpleData>
+		<SimpleData name="wpt_description">29-JAN-11 11:56:05PM</SimpleData>
+		<SimpleData name="ele">935.481445</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5704635,13.0155317</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1185685865</SimpleData>
+		<SimpleData name="osm_id">1185685865</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.569106,13.0157314</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Parking- Mathematics Department</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1186888623</SimpleData>
+		<SimpleData name="osm_id">1186888623</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5690713,13.0187524</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1186888625</SimpleData>
+		<SimpleData name="osm_id">1186888625</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="fee">no</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5693215,13.0169528</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sagar Hospital Parking</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1339731713</SimpleData>
+		<SimpleData name="osm_id">1339731713</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">multi-storey</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5650897,12.9085182</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Golden Palms Visitors Parking</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1341046577</SimpleData>
+		<SimpleData name="osm_id">1341046577</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.63847,13.0645998</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Two-Wheeler Parking</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1389204316</SimpleData>
+		<SimpleData name="osm_id">1389204316</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.584288,12.9655848</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1420968783</SimpleData>
+		<SimpleData name="osm_id">1420968783</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5031212,12.9327721</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1434548937</SimpleData>
+		<SimpleData name="osm_id">1434548937</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="capacity">700</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7484702,12.9595127</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Visitors'Parking</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1438153814</SimpleData>
+		<SimpleData name="osm_id">1438153814</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7468726,12.959229</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Maharaja Complex Multi Storey Parking</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1457578295</SimpleData>
+		<SimpleData name="osm_id">1457578295</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="operator">BBMP</SimpleData>
+		<SimpleData name="level">2,3,4</SimpleData>
+		<SimpleData name="parking">multi-storey</SimpleData>
+		<SimpleData name="fee">yes</SimpleData>
+		<SimpleData name="access">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5781068,12.9733973</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1462127091</SimpleData>
+		<SimpleData name="osm_id">1462127091</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6369876,12.9819339</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1462141134</SimpleData>
+		<SimpleData name="osm_id">1462141134</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6662316,12.9607274</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1474220578</SimpleData>
+		<SimpleData name="osm_id">1474220578</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="capacity">10</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6444292,12.9785945</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bosch (DH) Parking</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1474324422</SimpleData>
+		<SimpleData name="osm_id">1474324422</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6134497,12.9366224</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1486946277</SimpleData>
+		<SimpleData name="osm_id">1486946277</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="fee">yes</SimpleData>
+		<SimpleData name="access">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6774538,13.0005447</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1557291071</SimpleData>
+		<SimpleData name="osm_id">1557291071</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6115361,12.9665926</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1568922448</SimpleData>
+		<SimpleData name="osm_id">1568922448</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5861506,12.9641327</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1568922534</SimpleData>
+		<SimpleData name="osm_id">1568922534</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5862445,12.964747</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Yeswantapur Station Parking</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1572644025</SimpleData>
+		<SimpleData name="osm_id">1572644025</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5507008,13.0235615</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1584654586</SimpleData>
+		<SimpleData name="osm_id">1584654586</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="wheelchair">limited</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.680605,12.9545685</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1585678331</SimpleData>
+		<SimpleData name="osm_id">1585678331</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7207285,12.9795374</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Visitor's Car Park</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1585793366</SimpleData>
+		<SimpleData name="osm_id">1585793366</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.748862,12.9649166</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Visitor's Car Park</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1585793501</SimpleData>
+		<SimpleData name="osm_id">1585793501</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7488204,12.96465</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Infosys Parking Lot</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1603379637</SimpleData>
+		<SimpleData name="osm_id">1603379637</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6621693,12.8487517</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Phoenix Market Underground Parking</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1608340080</SimpleData>
+		<SimpleData name="osm_id">1608340080</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="supervised">yes</SimpleData>
+		<SimpleData name="layer">-2</SimpleData>
+		<SimpleData name="capacity:women">no</SimpleData>
+		<SimpleData name="capacity:parent">no</SimpleData>
+		<SimpleData name="capacity:disabled">unknown</SimpleData>
+		<SimpleData name="park_ride">yes</SimpleData>
+		<SimpleData name="wheelchair">yes</SimpleData>
+		<SimpleData name="parking">underground</SimpleData>
+		<SimpleData name="fee">yes</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6961012,12.996845</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Nexus Mall Parking</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1697594718</SimpleData>
+		<SimpleData name="osm_id">1697594718</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="addr:housename">Forum Mall</SimpleData>
+		<SimpleData name="addr:city">Bangalore</SimpleData>
+		<SimpleData name="addr:street">Hosur Road</SimpleData>
+		<SimpleData name="parking">multi-storey</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6110076,12.9348541</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1718788975</SimpleData>
+		<SimpleData name="osm_id">1718788975</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7436059,12.9753903</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1752304494</SimpleData>
+		<SimpleData name="osm_id">1752304494</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.612819,12.9054349</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Alliance University Car Parking</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1813727203</SimpleData>
+		<SimpleData name="osm_id">1813727203</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="wheelchair">yes</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7069213,12.7310691</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1864376228</SimpleData>
+		<SimpleData name="osm_id">1864376228</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">underground</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5676331,13.0307945</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1925211620</SimpleData>
+		<SimpleData name="osm_id">1925211620</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6586524,12.9916211</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1925211667</SimpleData>
+		<SimpleData name="osm_id">1925211667</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">multi-storey</SimpleData>
+		<SimpleData name="fee">no</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6608676,12.993338</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1925211707</SimpleData>
+		<SimpleData name="osm_id">1925211707</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">underground</SimpleData>
+		<SimpleData name="fee">no</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6615489,12.9936464</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bunt's Sangha Car Parking</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n1930110069</SimpleData>
+		<SimpleData name="osm_id">1930110069</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5329636,12.9613203</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n2016155696</SimpleData>
+		<SimpleData name="osm_id">2016155696</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5774051,12.976555</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n2274693084</SimpleData>
+		<SimpleData name="osm_id">2274693084</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5944082,12.971389</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n2319451104</SimpleData>
+		<SimpleData name="osm_id">2319451104</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">underground</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5713833,12.990975</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n2358265950</SimpleData>
+		<SimpleData name="osm_id">2358265950</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5867305,12.8206998</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n2385063246</SimpleData>
+		<SimpleData name="osm_id">2385063246</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="capacity">30</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5975594,12.8965246</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n2389680142</SimpleData>
+		<SimpleData name="osm_id">2389680142</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.592187,13.0729591</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n2407606587</SimpleData>
+		<SimpleData name="osm_id">2407606587</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="wheelchair">limited</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6955914,12.9971097</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cisco Visitor's Parking</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n2417865360</SimpleData>
+		<SimpleData name="osm_id">2417865360</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="fee">no</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6951527,12.9356128</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n2449073372</SimpleData>
+		<SimpleData name="osm_id">2449073372</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">multi-storey</SimpleData>
+		<SimpleData name="fee">yes</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6283868,12.9374015</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n2570171971</SimpleData>
+		<SimpleData name="osm_id">2570171971</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7249856,12.955716</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Car Parking</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n2647643917</SimpleData>
+		<SimpleData name="osm_id">2647643917</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="supervised">no</SimpleData>
+		<SimpleData name="capacity">30</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6680321,12.8417271</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n2891385863</SimpleData>
+		<SimpleData name="osm_id">2891385863</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6007139,12.8922602</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n2891388271</SimpleData>
+		<SimpleData name="osm_id">2891388271</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4869265,13.0870819</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n2892742440</SimpleData>
+		<SimpleData name="osm_id">2892742440</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5980012,12.8908632</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ennar Diagnostics &amp; Healthcare</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n2954412611</SimpleData>
+		<SimpleData name="osm_id">2954412611</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="operator">Myles</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5826306,12.8849403</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n3237664290</SimpleData>
+		<SimpleData name="osm_id">3237664290</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5884001,12.9657388</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n3237664467</SimpleData>
+		<SimpleData name="osm_id">3237664467</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5875548,12.9654427</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n3237664468</SimpleData>
+		<SimpleData name="osm_id">3237664468</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5879442,12.9658185</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n3237664469</SimpleData>
+		<SimpleData name="osm_id">3237664469</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5884754,12.9651767</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n3237664470</SimpleData>
+		<SimpleData name="osm_id">3237664470</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5881407,12.9667476</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n3237687378</SimpleData>
+		<SimpleData name="osm_id">3237687378</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5872423,12.965693</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n3241164396</SimpleData>
+		<SimpleData name="osm_id">3241164396</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5883414,12.9659324</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n3257732743</SimpleData>
+		<SimpleData name="osm_id">3257732743</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.667609,12.8449657</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n3393483876</SimpleData>
+		<SimpleData name="osm_id">3393483876</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5806118,12.9096977</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n3412188636</SimpleData>
+		<SimpleData name="osm_id">3412188636</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="capacity">10</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.570018,13.0172116</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n3412599218</SimpleData>
+		<SimpleData name="osm_id">3412599218</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5634762,13.0280761</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n3462850453</SimpleData>
+		<SimpleData name="osm_id">3462850453</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5273271,13.0388561</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Mindtree Global Village, Parking Area</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n3485273429</SimpleData>
+		<SimpleData name="osm_id">3485273429</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="designation">Mindtree Official Parking Area for both two and four wheelers</SimpleData>
+		<SimpleData name="parking">park_and_ride</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5040278,12.9168148</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n3603007803</SimpleData>
+		<SimpleData name="osm_id">3603007803</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5853282,12.9634135</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n3730964481</SimpleData>
+		<SimpleData name="osm_id">3730964481</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="barrier">chain</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5946636,12.9759937</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Car Parking</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n3797611901</SimpleData>
+		<SimpleData name="osm_id">3797611901</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="supervised">no</SimpleData>
+		<SimpleData name="parking">lane</SimpleData>
+		<SimpleData name="fee">no</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6181421,12.9717014</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pay and Park</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n3808180480</SimpleData>
+		<SimpleData name="osm_id">3808180480</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="supervised">yes</SimpleData>
+		<SimpleData name="operator">BBMP</SimpleData>
+		<SimpleData name="level">-1</SimpleData>
+		<SimpleData name="parking">underground</SimpleData>
+		<SimpleData name="fee">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6097223,12.97357</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Visitors Car Parking</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n3808184784</SimpleData>
+		<SimpleData name="osm_id">3808184784</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="fee">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6140413,12.9732807</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n3832798964</SimpleData>
+		<SimpleData name="osm_id">3832798964</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="capacity">3</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5810241,12.936898</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Visitors' parking</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n3868524121</SimpleData>
+		<SimpleData name="osm_id">3868524121</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5114835,13.0714185</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n3874194881</SimpleData>
+		<SimpleData name="osm_id">3874194881</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.650836,12.8739896</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n4005441463</SimpleData>
+		<SimpleData name="osm_id">4005441463</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5687107,13.0129037</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n4008637875</SimpleData>
+		<SimpleData name="osm_id">4008637875</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5645728,13.0243879</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n4008639892</SimpleData>
+		<SimpleData name="osm_id">4008639892</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.564035,13.0243552</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n4082619890</SimpleData>
+		<SimpleData name="osm_id">4082619890</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6651026,12.6860987</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n4234070460</SimpleData>
+		<SimpleData name="osm_id">4234070460</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="surface">concrete</SimpleData>
+		<SimpleData name="covered">yes</SimpleData>
+		<SimpleData name="supervised">yes</SimpleData>
+		<SimpleData name="operator">Avana Electrosystems Pvt Ltd</SimpleData>
+		<SimpleData name="capacity">30</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5130029,13.0265207</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Metro Station Parking</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n4665420365</SimpleData>
+		<SimpleData name="osm_id">4665420365</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="maxstay">1 hour</SimpleData>
+		<SimpleData name="surface">asphalt</SimpleData>
+		<SimpleData name="supervised">yes</SimpleData>
+		<SimpleData name="operator">BMRCL</SimpleData>
+		<SimpleData name="capacity">50</SimpleData>
+		<SimpleData name="park_ride">no</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="fee">yes</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5336425,13.0330931</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n4834590511</SimpleData>
+		<SimpleData name="osm_id">4834590511</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking_entrance</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6206618,13.0506842</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n4834590513</SimpleData>
+		<SimpleData name="osm_id">4834590513</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking_entrance</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6208589,13.0513621</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n5426006754</SimpleData>
+		<SimpleData name="osm_id">5426006754</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="operator">Slot 001</SimpleData>
+		<SimpleData name="parking">underground</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5962047,12.9656864</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n5426006755</SimpleData>
+		<SimpleData name="osm_id">5426006755</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="operator">Slot 002</SimpleData>
+		<SimpleData name="parking">underground</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5962731,12.965702</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n5426006756</SimpleData>
+		<SimpleData name="osm_id">5426006756</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="operator">Slot 003</SimpleData>
+		<SimpleData name="parking">underground</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5963449,12.9657249</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n5426006757</SimpleData>
+		<SimpleData name="osm_id">5426006757</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="operator">Slot 004</SimpleData>
+		<SimpleData name="parking">underground</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5964045,12.9657419</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n6536993900</SimpleData>
+		<SimpleData name="osm_id">6536993900</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5633424,13.0257673</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n6536993901</SimpleData>
+		<SimpleData name="osm_id">6536993901</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5637622,13.0246214</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n6536993902</SimpleData>
+		<SimpleData name="osm_id">6536993902</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5643067,13.0240674</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n6570549379</SimpleData>
+		<SimpleData name="osm_id">6570549379</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5706595,13.0147655</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n6570549999</SimpleData>
+		<SimpleData name="osm_id">6570549999</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="capacity">4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5710028,13.0169346</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n6575118635</SimpleData>
+		<SimpleData name="osm_id">6575118635</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="capacity">4</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5719671,13.0152131</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n6575118643</SimpleData>
+		<SimpleData name="osm_id">6575118643</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.570748,13.0154901</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n6578484702</SimpleData>
+		<SimpleData name="osm_id">6578484702</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5680685,13.0179119</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n6650026303</SimpleData>
+		<SimpleData name="osm_id">6650026303</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6100303,13.067797</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n6650026304</SimpleData>
+		<SimpleData name="osm_id">6650026304</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.609742,13.0670131</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n6654828295</SimpleData>
+		<SimpleData name="osm_id">6654828295</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5630367,13.0172861</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7104511349</SimpleData>
+		<SimpleData name="osm_id">7104511349</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5134614,13.1455218</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7146676529</SimpleData>
+		<SimpleData name="osm_id">7146676529</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6014768,13.0465688</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7156536858</SimpleData>
+		<SimpleData name="osm_id">7156536858</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5313598,12.9470768</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Visitor's Parking</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7164392990</SimpleData>
+		<SimpleData name="osm_id">7164392990</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5372848,13.0517881</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7167153778</SimpleData>
+		<SimpleData name="osm_id">7167153778</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5190954,13.0608117</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7176651804</SimpleData>
+		<SimpleData name="osm_id">7176651804</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5574429,12.9771415</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7178544405</SimpleData>
+		<SimpleData name="osm_id">7178544405</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5649826,13.1553842</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7179305656</SimpleData>
+		<SimpleData name="osm_id">7179305656</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5715674,13.1394973</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7195132656</SimpleData>
+		<SimpleData name="osm_id">7195132656</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5190243,12.9390151</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7201051971</SimpleData>
+		<SimpleData name="osm_id">7201051971</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.554168,13.0067478</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BBMP Parking</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7201052013</SimpleData>
+		<SimpleData name="osm_id">7201052013</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="operator">BBMP</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5538511,13.0059362</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7206419722</SimpleData>
+		<SimpleData name="osm_id">7206419722</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="lit">yes</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="fee">no</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6413478,13.0602839</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7206419727</SimpleData>
+		<SimpleData name="osm_id">7206419727</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">underground</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6415322,13.0607418</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7215549993</SimpleData>
+		<SimpleData name="osm_id">7215549993</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">underground</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5505787,13.0193398</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7215550054</SimpleData>
+		<SimpleData name="osm_id">7215550054</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="fee">no</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5536597,13.0139214</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7220694773</SimpleData>
+		<SimpleData name="osm_id">7220694773</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="supervised">yes</SimpleData>
+		<SimpleData name="level">-1</SimpleData>
+		<SimpleData name="parking">underground</SimpleData>
+		<SimpleData name="fee">yes</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6100571,12.969593</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7227447034</SimpleData>
+		<SimpleData name="osm_id">7227447034</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6522496,13.066117</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7227447039</SimpleData>
+		<SimpleData name="osm_id">7227447039</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6520927,13.0668172</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7227447040</SimpleData>
+		<SimpleData name="osm_id">7227447040</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6520927,13.0664736</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7228221939</SimpleData>
+		<SimpleData name="osm_id">7228221939</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5956765,13.0951352</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7228221942</SimpleData>
+		<SimpleData name="osm_id">7228221942</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5945392,13.094328</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7228221958</SimpleData>
+		<SimpleData name="osm_id">7228221958</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5959621,13.0940615</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7230029017</SimpleData>
+		<SimpleData name="osm_id">7230029017</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5803637,13.1192444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7230029018</SimpleData>
+		<SimpleData name="osm_id">7230029018</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5796905,13.1199262</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7232026919</SimpleData>
+		<SimpleData name="osm_id">7232026919</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5872262,12.9860136</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7234491294</SimpleData>
+		<SimpleData name="osm_id">7234491294</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6151305,12.9926089</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7255929421</SimpleData>
+		<SimpleData name="osm_id">7255929421</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">underground</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.615154,12.9959111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7257189486</SimpleData>
+		<SimpleData name="osm_id">7257189486</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5725706,13.0451003</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7257189628</SimpleData>
+		<SimpleData name="osm_id">7257189628</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5721535,13.0441191</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7257189629</SimpleData>
+		<SimpleData name="osm_id">7257189629</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5729179,13.0440708</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7285505639</SimpleData>
+		<SimpleData name="osm_id">7285505639</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5533244,13.1784168</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7285523389</SimpleData>
+		<SimpleData name="osm_id">7285523389</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5359839,13.1698272</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7289130131</SimpleData>
+		<SimpleData name="osm_id">7289130131</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4924543,12.9221378</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7292337013</SimpleData>
+		<SimpleData name="osm_id">7292337013</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5604966,12.9619946</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7293719386</SimpleData>
+		<SimpleData name="osm_id">7293719386</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6020977,12.9624298</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7293719387</SimpleData>
+		<SimpleData name="osm_id">7293719387</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">underground</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6019931,12.9627422</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7296739226</SimpleData>
+		<SimpleData name="osm_id">7296739226</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5370085,13.0386683</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7299083185</SimpleData>
+		<SimpleData name="osm_id">7299083185</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6424824,13.0819616</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7304953088</SimpleData>
+		<SimpleData name="osm_id">7304953088</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5913206,13.0333977</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7395562828</SimpleData>
+		<SimpleData name="osm_id">7395562828</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5950542,12.9714867</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n7430631839</SimpleData>
+		<SimpleData name="osm_id">7430631839</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5668561,13.0313151</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n9114730230</SimpleData>
+		<SimpleData name="osm_id">9114730230</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5396107,13.0284852</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n9182325482</SimpleData>
+		<SimpleData name="osm_id">9182325482</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="operator">Green House</SimpleData>
+		<SimpleData name="fee">no</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4868321,12.9294702</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n9777549183</SimpleData>
+		<SimpleData name="osm_id">9777549183</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="capacity">20</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5862976,12.9726552</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n9796561537</SimpleData>
+		<SimpleData name="osm_id">9796561537</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">underground</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6032486,12.9801476</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n9796561558</SimpleData>
+		<SimpleData name="osm_id">9796561558</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6035516,12.9811411</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n9796561602</SimpleData>
+		<SimpleData name="osm_id">9796561602</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6071282,12.9796154</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Jalahalli Private Parking</name>
+	<description>24 hours, monthly pass available, CCTV</description>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n10125377313</SimpleData>
+		<SimpleData name="osm_id">10125377313</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="fee">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5188551,13.0401901</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n10172024636</SimpleData>
+		<SimpleData name="osm_id">10172024636</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5903764,13.0341843</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n10197599049</SimpleData>
+		<SimpleData name="osm_id">10197599049</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5856557,12.9932649</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n10201030343</SimpleData>
+		<SimpleData name="osm_id">10201030343</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="fee">yes</SimpleData>
+		<SimpleData name="access">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6120742,12.9695538</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n10213547228</SimpleData>
+		<SimpleData name="osm_id">10213547228</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking_entrance</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6871514,12.9094562</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n10272932165</SimpleData>
+		<SimpleData name="osm_id">10272932165</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5998044,12.9729007</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n10290817590</SimpleData>
+		<SimpleData name="osm_id">10290817590</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5968553,12.9735868</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n10291085457</SimpleData>
+		<SimpleData name="osm_id">10291085457</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking_entrance</SimpleData>
+		<SimpleData name="parking">multi-storey</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7300156,12.9920659</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n10293847368</SimpleData>
+		<SimpleData name="osm_id">10293847368</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="barrier">gate</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.651875,12.9923234</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n10295397893</SimpleData>
+		<SimpleData name="osm_id">10295397893</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="operator">BBMP</SimpleData>
+		<SimpleData name="capacity">10</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="fee">yes</SimpleData>
+		<SimpleData name="access">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6008907,12.9711796</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n10295411712</SimpleData>
+		<SimpleData name="osm_id">10295411712</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="operator">BBMP</SimpleData>
+		<SimpleData name="capacity">10</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="fee">yes</SimpleData>
+		<SimpleData name="access">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6007707,12.9706398</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n10295411752</SimpleData>
+		<SimpleData name="osm_id">10295411752</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="operator">BBMP</SimpleData>
+		<SimpleData name="capacity">6</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="fee">yes</SimpleData>
+		<SimpleData name="access">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6054565,12.974896</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n10297757270</SimpleData>
+		<SimpleData name="osm_id">10297757270</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="operator">BBMP</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="fee">yes</SimpleData>
+		<SimpleData name="access">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6075104,12.9672824</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n10555817219</SimpleData>
+		<SimpleData name="osm_id">10555817219</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5808036,13.0757448</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Visitor Parking</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n10574692787</SimpleData>
+		<SimpleData name="osm_id">10574692787</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6070893,13.068731</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n10607497469</SimpleData>
+		<SimpleData name="osm_id">10607497469</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6012179,12.8954237</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n10607497471</SimpleData>
+		<SimpleData name="osm_id">10607497471</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6003811,12.8928719</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n10761493359</SimpleData>
+		<SimpleData name="osm_id">10761493359</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="operator">BBMP</SimpleData>
+		<SimpleData name="capacity">30</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="fee">yes</SimpleData>
+		<SimpleData name="access">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5986148,12.983</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n10763274810</SimpleData>
+		<SimpleData name="osm_id">10763274810</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7376753,12.9817808</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n10792887305</SimpleData>
+		<SimpleData name="osm_id">10792887305</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="payment:cash">yes</SimpleData>
+		<SimpleData name="surface">ground</SimpleData>
+		<SimpleData name="covered">no</SimpleData>
+		<SimpleData name="supervised">yes</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="fee">yes</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5867635,12.9585496</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n10887289984</SimpleData>
+		<SimpleData name="osm_id">10887289984</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.600247,12.9762881</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n10971543146</SimpleData>
+		<SimpleData name="osm_id">10971543146</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="barrier">gate</SimpleData>
+		<SimpleData name="access">no</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5797523,13.108333</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n10979969450</SimpleData>
+		<SimpleData name="osm_id">10979969450</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6182875,12.9730589</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n10992667479</SimpleData>
+		<SimpleData name="osm_id">10992667479</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="parking">street_side</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6013754,12.896621</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11011562415</SimpleData>
+		<SimpleData name="osm_id">11011562415</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="barrier">gate</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6954517,12.807395</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11031553980</SimpleData>
+		<SimpleData name="osm_id">11031553980</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="barrier">gate</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5861826,13.0582694</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11034537973</SimpleData>
+		<SimpleData name="osm_id">11034537973</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5414114,13.0289018</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11057990635</SimpleData>
+		<SimpleData name="osm_id">11057990635</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="entrance">main</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6679163,12.9860884</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11124698306</SimpleData>
+		<SimpleData name="osm_id">11124698306</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5973234,12.8759418</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11124783672</SimpleData>
+		<SimpleData name="osm_id">11124783672</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5866616,12.8453185</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11146706695</SimpleData>
+		<SimpleData name="osm_id">11146706695</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6395024,13.0604576</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11148448513</SimpleData>
+		<SimpleData name="osm_id">11148448513</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6132101,12.9689814</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11174397953</SimpleData>
+		<SimpleData name="osm_id">11174397953</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5571338,13.0115296</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11214888997</SimpleData>
+		<SimpleData name="osm_id">11214888997</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="foot">yes</SimpleData>
+		<SimpleData name="barrier">gate</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6053927,12.9699106</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11215614057</SimpleData>
+		<SimpleData name="osm_id">11215614057</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking_entrance</SimpleData>
+		<SimpleData name="parking">multi-storey</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7260384,12.9768791</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11232355617</SimpleData>
+		<SimpleData name="osm_id">11232355617</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6796525,12.9218828</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11241200201</SimpleData>
+		<SimpleData name="osm_id">11241200201</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="entrance">main</SimpleData>
+		<SimpleData name="wheelchair">yes</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.552217,12.8847537</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Private Parking</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11290399269</SimpleData>
+		<SimpleData name="osm_id">11290399269</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7605093,13.020903</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11305222351</SimpleData>
+		<SimpleData name="osm_id">11305222351</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6112548,12.8889199</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11341163858</SimpleData>
+		<SimpleData name="osm_id">11341163858</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5630729,12.9788842</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11341163859</SimpleData>
+		<SimpleData name="osm_id">11341163859</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5635611,12.9789201</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11341513736</SimpleData>
+		<SimpleData name="osm_id">11341513736</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="operator:type">private</SimpleData>
+		<SimpleData name="layer">-1</SimpleData>
+		<SimpleData name="operator">Mahendra Aarna Appartments</SimpleData>
+		<SimpleData name="parking">underground</SimpleData>
+		<SimpleData name="fee">no</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6911649,12.8349944</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11473102405</SimpleData>
+		<SimpleData name="osm_id">11473102405</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="operator:type">private</SimpleData>
+		<SimpleData name="surface">asphalt</SimpleData>
+		<SimpleData name="operator">Kendriya Vihar Apartments Owners Association</SimpleData>
+		<SimpleData name="capacity">20</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="fee">no</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.600541,13.1069858</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11494735187</SimpleData>
+		<SimpleData name="osm_id">11494735187</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="operator:type">private</SimpleData>
+		<SimpleData name="surface">asphalt</SimpleData>
+		<SimpleData name="operator">Kendriya Vihar Apartments Owners Association</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5991234,13.1069672</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11494735188</SimpleData>
+		<SimpleData name="osm_id">11494735188</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="operator:type">private</SimpleData>
+		<SimpleData name="surface">asphalt</SimpleData>
+		<SimpleData name="operator">Kendriya Vihar Apartments Owners Association</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5987955,13.1067351</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11494735189</SimpleData>
+		<SimpleData name="osm_id">11494735189</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="operator:type">private</SimpleData>
+		<SimpleData name="surface">asphalt</SimpleData>
+		<SimpleData name="operator">Kendriya Vihar Apartments Owners Association</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5994451,13.1062792</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11494735190</SimpleData>
+		<SimpleData name="osm_id">11494735190</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="operator:type">private</SimpleData>
+		<SimpleData name="surface">asphalt</SimpleData>
+		<SimpleData name="operator">Kendriya Vihar Apartments Owners Association</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5997797,13.1071415</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11494735191</SimpleData>
+		<SimpleData name="osm_id">11494735191</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="operator:type">private</SimpleData>
+		<SimpleData name="surface">asphalt</SimpleData>
+		<SimpleData name="operator">Kendriya Vihar Apartments Owners Association</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6002372,13.1063661</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11494735192</SimpleData>
+		<SimpleData name="osm_id">11494735192</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="operator:type">private</SimpleData>
+		<SimpleData name="surface">asphalt</SimpleData>
+		<SimpleData name="operator">Kendriya Vihar Apartments Owners Association</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5992622,13.1068248</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11503527496</SimpleData>
+		<SimpleData name="osm_id">11503527496</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5939786,12.9877699</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11506489870</SimpleData>
+		<SimpleData name="osm_id">11506489870</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7366762,12.9194229</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11506489871</SimpleData>
+		<SimpleData name="osm_id">11506489871</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7379744,12.919449</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11518309674</SimpleData>
+		<SimpleData name="osm_id">11518309674</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6412579,13.1930137</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11518309683</SimpleData>
+		<SimpleData name="osm_id">11518309683</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6441815,13.1927643</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11518309684</SimpleData>
+		<SimpleData name="osm_id">11518309684</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6438342,13.1927591</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11518309685</SimpleData>
+		<SimpleData name="osm_id">11518309685</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6432911,13.1927408</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11518309686</SimpleData>
+		<SimpleData name="osm_id">11518309686</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6429786,13.1927539</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11518309687</SimpleData>
+		<SimpleData name="osm_id">11518309687</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6424488,13.1927434</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11518309688</SimpleData>
+		<SimpleData name="osm_id">11518309688</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.642135,13.1927473</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11518309689</SimpleData>
+		<SimpleData name="osm_id">11518309689</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6420492,13.1945453</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11518309690</SimpleData>
+		<SimpleData name="osm_id">11518309690</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6428418,13.194574</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11518309691</SimpleData>
+		<SimpleData name="osm_id">11518309691</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6424529,13.1945597</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11518309692</SimpleData>
+		<SimpleData name="osm_id">11518309692</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.643401,13.1945923</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11521293784</SimpleData>
+		<SimpleData name="osm_id">11521293784</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4867252,13.055697</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11521293785</SimpleData>
+		<SimpleData name="osm_id">11521293785</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4880595,13.0546728</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11521293786</SimpleData>
+		<SimpleData name="osm_id">11521293786</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4895146,13.0545434</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11521293787</SimpleData>
+		<SimpleData name="osm_id">11521293787</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4889353,13.0564103</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11521293792</SimpleData>
+		<SimpleData name="osm_id">11521293792</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4876666,13.0565227</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11521293793</SimpleData>
+		<SimpleData name="osm_id">11521293793</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4884163,13.0562745</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11527287657</SimpleData>
+		<SimpleData name="osm_id">11527287657</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6445772,12.9504123</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11527324132</SimpleData>
+		<SimpleData name="osm_id">11527324132</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6438101,12.950313</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11527324133</SimpleData>
+		<SimpleData name="osm_id">11527324133</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6429263,12.9490713</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11527324134</SimpleData>
+		<SimpleData name="osm_id">11527324134</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6410125,12.9506711</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11527324135</SimpleData>
+		<SimpleData name="osm_id">11527324135</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6430523,12.9534315</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11527324140</SimpleData>
+		<SimpleData name="osm_id">11527324140</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6439348,12.9533504</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11527598210</SimpleData>
+		<SimpleData name="osm_id">11527598210</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6489465,12.9531714</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11542689650</SimpleData>
+		<SimpleData name="osm_id">11542689650</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">permissive</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6206366,12.9251115</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11556692142</SimpleData>
+		<SimpleData name="osm_id">11556692142</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="smoothness">bad</SimpleData>
+		<SimpleData name="park_ride">no</SimpleData>
+		<SimpleData name="parking">underground</SimpleData>
+		<SimpleData name="access">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7273448,12.9896559</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597631637</SimpleData>
+		<SimpleData name="osm_id">11597631637</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4686739,12.8827977</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597631638</SimpleData>
+		<SimpleData name="osm_id">11597631638</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4687704,12.8832788</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597631661</SimpleData>
+		<SimpleData name="osm_id">11597631661</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4713454,12.8818381</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597631662</SimpleData>
+		<SimpleData name="osm_id">11597631662</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4708357,12.8816511</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597631663</SimpleData>
+		<SimpleData name="osm_id">11597631663</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.470935,12.8819309</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597631664</SimpleData>
+		<SimpleData name="osm_id">11597631664</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4704173,12.8820302</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597631665</SimpleData>
+		<SimpleData name="osm_id">11597631665</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4698675,12.8823911</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597631666</SimpleData>
+		<SimpleData name="osm_id">11597631666</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4694101,12.8828683</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597631667</SimpleData>
+		<SimpleData name="osm_id">11597631667</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4692398,12.8833716</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597631668</SimpleData>
+		<SimpleData name="osm_id">11597631668</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4690266,12.8832134</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597670569</SimpleData>
+		<SimpleData name="osm_id">11597670569</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4689689,12.8827022</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597670570</SimpleData>
+		<SimpleData name="osm_id">11597670570</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.469162,12.8824708</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597670571</SimpleData>
+		<SimpleData name="osm_id">11597670571</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4694705,12.8822002</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597670572</SimpleData>
+		<SimpleData name="osm_id">11597670572</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4697494,12.8819557</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597670573</SimpleData>
+		<SimpleData name="osm_id">11597670573</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4700566,12.8817348</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597670574</SimpleData>
+		<SimpleData name="osm_id">11597670574</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4703825,12.8815596</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597670617</SimpleData>
+		<SimpleData name="osm_id">11597670617</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4714755,12.8802209</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597670618</SimpleData>
+		<SimpleData name="osm_id">11597670618</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4717115,12.8805085</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597670619</SimpleData>
+		<SimpleData name="osm_id">11597670619</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4713038,12.8806444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597670620</SimpleData>
+		<SimpleData name="osm_id">11597670620</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4714553,12.8804732</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597670621</SimpleData>
+		<SimpleData name="osm_id">11597670621</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4707901,12.8807673</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597670622</SimpleData>
+		<SimpleData name="osm_id">11597670622</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4708666,12.8810053</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597670623</SimpleData>
+		<SimpleData name="osm_id">11597670623</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4705166,12.8811007</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597670624</SimpleData>
+		<SimpleData name="osm_id">11597670624</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4704106,12.8808981</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597670625</SimpleData>
+		<SimpleData name="osm_id">11597670625</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4701746,12.8808981</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597670626</SimpleData>
+		<SimpleData name="osm_id">11597670626</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4698876,12.8811125</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597670627</SimpleData>
+		<SimpleData name="osm_id">11597670627</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4691084,12.8807229</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597670628</SimpleData>
+		<SimpleData name="osm_id">11597670628</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4694705,12.8809177</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597670629</SimpleData>
+		<SimpleData name="osm_id">11597670629</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4693753,12.881085</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597670630</SimpleData>
+		<SimpleData name="osm_id">11597670630</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4691553,12.8809648</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597670631</SimpleData>
+		<SimpleData name="osm_id">11597670631</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4696247,12.8812197</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597670632</SimpleData>
+		<SimpleData name="osm_id">11597670632</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.469268,12.8813047</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597670633</SimpleData>
+		<SimpleData name="osm_id">11597670633</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4697106,12.881472</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597670634</SimpleData>
+		<SimpleData name="osm_id">11597670634</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4693431,12.8815687</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597670635</SimpleData>
+		<SimpleData name="osm_id">11597670635</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.469036,12.881676</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597670636</SimpleData>
+		<SimpleData name="osm_id">11597670636</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4689622,12.881357</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11597670637</SimpleData>
+		<SimpleData name="osm_id">11597670637</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4688818,12.8810615</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11655480377</SimpleData>
+		<SimpleData name="osm_id">11655480377</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">underground</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5593963,13.0758924</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11655480380</SimpleData>
+		<SimpleData name="osm_id">11655480380</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">underground</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.558943,13.0760544</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11655480381</SimpleData>
+		<SimpleData name="osm_id">11655480381</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">underground</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5603424,13.0770302</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11758026800</SimpleData>
+		<SimpleData name="osm_id">11758026800</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="operator">5</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5559932,13.0150726</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11758026801</SimpleData>
+		<SimpleData name="osm_id">11758026801</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="operator">5</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5561367,13.0149217</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11758026802</SimpleData>
+		<SimpleData name="osm_id">11758026802</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="operator">5</SimpleData>
+		<SimpleData name="parking">surface</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5559064,13.0145931</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11799207955</SimpleData>
+		<SimpleData name="osm_id">11799207955</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">underground</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7118175,12.9779455</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11799207964</SimpleData>
+		<SimpleData name="osm_id">11799207964</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="parking">underground</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7119633,12.9779261</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_parking_bengaluru_urban">
+		<SimpleData name="full_id">n11865663815</SimpleData>
+		<SimpleData name="osm_id">11865663815</SimpleData>
+		<SimpleData name="osm_type">node</SimpleData>
+		<SimpleData name="barrier">gate</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5860233,13.0582948</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

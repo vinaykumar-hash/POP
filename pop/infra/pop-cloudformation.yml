@@ -1,0 +1,327 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "POP (Parking on phone) — Complete Serverless Cloud Infrastructure (Cognito, S3 Media, and DynamoDB Tables)"
+
+Parameters:
+  Environment:
+    Type: String
+    Default: dev
+    AllowedValues:
+      - dev
+      - staging
+      - prod
+    Description: "Deployment environment stage"
+
+Resources:
+  # ============================================================================
+  # 1. AWS COGNITO — AUTHENTICATION & USER ROLES
+  # ============================================================================
+  POPUserPool:
+    Type: AWS::Cognito::UserPool
+    Properties:
+      UserPoolName: !Sub "POP-UserPool-${Environment}"
+      UsernameAttributes:
+        - email
+      AutoVerifiedAttributes:
+        - email
+      Policies:
+        PasswordPolicy:
+          MinimumLength: 8
+          RequireLowercase: true
+          RequireNumbers: true
+          RequireSymbols: false
+          RequireUppercase: true
+      Schema:
+        - Name: email
+          Required: true
+          Mutable: true
+        - Name: name
+          Required: false
+          Mutable: true
+        - Name: preferred_role
+          AttributeDataType: String
+          Mutable: true
+      UserPoolTags:
+        Project: POP
+        Environment: !Ref Environment
+
+  POPUserPoolClient:
+    Type: AWS::Cognito::UserPoolClient
+    Properties:
+      ClientName: !Sub "POP-WebClient-${Environment}"
+      UserPoolId: !Ref POPUserPool
+      GenerateSecret: false
+      ExplicitAuthFlows:
+        - ALLOW_USER_SRP_AUTH
+        - ALLOW_REFRESH_TOKEN_AUTH
+        - ALLOW_USER_PASSWORD_AUTH
+      PreventUserExistenceErrors: ENABLED
+      AccessTokenValidity: 24
+      IdTokenValidity: 24
+      TokenValidityUnits:
+        AccessToken: hours
+        IdToken: hours
+
+  DriverUserGroup:
+    Type: AWS::Cognito::UserPoolGroup
+    Properties:
+      GroupName: Drivers
+      Description: "Registered drivers discovering and navigating to parking spaces"
+      UserPoolId: !Ref POPUserPool
+      Precedence: 10
+
+  HostUserGroup:
+    Type: AWS::Cognito::UserPoolGroup
+    Properties:
+      GroupName: Hosts
+      Description: "Hosts listing private parking spots for rent"
+      UserPoolId: !Ref POPUserPool
+      Precedence: 20
+
+  AdminUserGroup:
+    Type: AWS::Cognito::UserPoolGroup
+    Properties:
+      GroupName: Admins
+      Description: "POP platform administrators"
+      UserPoolId: !Ref POPUserPool
+      Precedence: 1
+
+  # ============================================================================
+  # 2. AWS S3 — STORAGE FOR PARKING PHOTOS & HOST DOCUMENTS
+  # ============================================================================
+  POPMediaBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub "pop-media-${Environment}-${AWS::AccountId}"
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
+      CorsConfiguration:
+        CorsRules:
+          - AllowedHeaders:
+              - "*"
+            AllowedMethods:
+              - GET
+              - PUT
+              - HEAD
+            AllowedOrigins:
+              - "*"
+            MaxAge: 3600
+      Tags:
+        - Key: Project
+          Value: POP
+        - Key: Environment
+          Value: !Ref Environment
+
+  # ============================================================================
+  # 3. AWS DYNAMODB — LOCATIONS (Open Parking Registry)
+  # ============================================================================
+  ParkingLocationsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: !Sub "POP-Locations-${Environment}"
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: id
+          AttributeType: S
+        - AttributeName: source
+          AttributeType: S
+        - AttributeName: createdAt
+          AttributeType: S
+      KeySchema:
+        - AttributeName: id
+          KeyType: HASH
+      GlobalSecondaryIndexes:
+        - IndexName: BySourceIndex
+          KeySchema:
+            - AttributeName: source
+              KeyType: HASH
+            - AttributeName: createdAt
+              KeyType: RANGE
+          Projection:
+            ProjectionType: ALL
+      PointInTimeRecoverySpecification:
+        PointInTimeRecoveryEnabled: true
+      Tags:
+        - Key: Project
+          Value: POP
+        - Key: Environment
+          Value: !Ref Environment
+
+  # ============================================================================
+  # 4. AWS DYNAMODB — EVENTS (Crowdsourced Signals & TTL)
+  # ============================================================================
+  ParkingEventsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: !Sub "POP-Events-${Environment}"
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: parkingId
+          AttributeType: S
+        - AttributeName: eventId
+          AttributeType: S
+      KeySchema:
+        - AttributeName: parkingId
+          KeyType: HASH
+        - AttributeName: eventId
+          KeyType: RANGE
+      TimeToLiveSpecification:
+        AttributeName: expiresAt
+        Enabled: true
+      Tags:
+        - Key: Project
+          Value: POP
+        - Key: Environment
+          Value: !Ref Environment
+
+  # ============================================================================
+  # 5. AWS DYNAMODB — LISTINGS (Host Private Parking Spots)
+  # ============================================================================
+  ParkingListingsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: !Sub "POP-Listings-${Environment}"
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: listingId
+          AttributeType: S
+        - AttributeName: hostId
+          AttributeType: S
+        - AttributeName: status
+          AttributeType: S
+        - AttributeName: createdAt
+          AttributeType: S
+      KeySchema:
+        - AttributeName: listingId
+          KeyType: HASH
+      GlobalSecondaryIndexes:
+        - IndexName: ByHostIndex
+          KeySchema:
+            - AttributeName: hostId
+              KeyType: HASH
+            - AttributeName: createdAt
+              KeyType: RANGE
+          Projection:
+            ProjectionType: ALL
+        - IndexName: ByStatusIndex
+          KeySchema:
+            - AttributeName: status
+              KeyType: HASH
+            - AttributeName: createdAt
+              KeyType: RANGE
+          Projection:
+            ProjectionType: ALL
+      PointInTimeRecoverySpecification:
+        PointInTimeRecoveryEnabled: true
+      Tags:
+        - Key: Project
+          Value: POP
+        - Key: Environment
+          Value: !Ref Environment
+
+  # ============================================================================
+  # 6. AWS DYNAMODB — HOSTS (Host Identity & Verification)
+  # ============================================================================
+  HostProfilesTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: !Sub "POP-Hosts-${Environment}"
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: userId
+          AttributeType: S
+      KeySchema:
+        - AttributeName: userId
+          KeyType: HASH
+      Tags:
+        - Key: Project
+          Value: POP
+        - Key: Environment
+          Value: !Ref Environment
+
+  # ============================================================================
+  # 7. AWS DYNAMODB — BOOKINGS (Rentals & Reservations)
+  # ============================================================================
+  ParkingBookingsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: !Sub "POP-Bookings-${Environment}"
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: bookingId
+          AttributeType: S
+        - AttributeName: userId
+          AttributeType: S
+        - AttributeName: listingId
+          AttributeType: S
+        - AttributeName: createdAt
+          AttributeType: S
+      KeySchema:
+        - AttributeName: bookingId
+          KeyType: HASH
+      GlobalSecondaryIndexes:
+        - IndexName: ByUserIndex
+          KeySchema:
+            - AttributeName: userId
+              KeyType: HASH
+            - AttributeName: createdAt
+              KeyType: RANGE
+          Projection:
+            ProjectionType: ALL
+        - IndexName: ByListingIndex
+          KeySchema:
+            - AttributeName: listingId
+              KeyType: HASH
+            - AttributeName: createdAt
+              KeyType: RANGE
+          Projection:
+            ProjectionType: ALL
+      Tags:
+        - Key: Project
+          Value: POP
+        - Key: Environment
+          Value: !Ref Environment
+
+Outputs:
+  Region:
+    Description: "AWS Region"
+    Value: !Ref "AWS::Region"
+
+  UserPoolId:
+    Description: "Cognito User Pool ID"
+    Value: !Ref POPUserPool
+    Export:
+      Name: !Sub "${AWS::StackName}-UserPoolId"
+
+  UserPoolClientId:
+    Description: "Cognito Web Client ID"
+    Value: !Ref POPUserPoolClient
+    Export:
+      Name: !Sub "${AWS::StackName}-UserPoolClientId"
+
+  MediaBucketName:
+    Description: "S3 Media Bucket Name"
+    Value: !Ref POPMediaBucket
+    Export:
+      Name: !Sub "${AWS::StackName}-MediaBucketName"
+
+  LocationsTableName:
+    Description: "DynamoDB Locations Table"
+    Value: !Ref ParkingLocationsTable
+
+  EventsTableName:
+    Description: "DynamoDB Events Table"
+    Value: !Ref ParkingEventsTable
+
+  ListingsTableName:
+    Description: "DynamoDB Listings Table"
+    Value: !Ref ParkingListingsTable
+
+  HostsTableName:
+    Description: "DynamoDB Hosts Table"
+    Value: !Ref HostProfilesTable
+
+  BookingsTableName:
+    Description: "DynamoDB Bookings Table"
+    Value: !Ref ParkingBookingsTable
