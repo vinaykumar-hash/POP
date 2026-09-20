@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { useAuth } from '@/contexts/AuthContext';
 import { hostApiClient } from '@/services/host/apiClient';
 import type { ParkingListing } from '@/types/listingModel';
+import LandingHeader from '@/components/layout/LandingHeader';
 
 export default function AdminListingsPage() {
   const { user, isAuthenticated, isLoading: authLoading, role, openAuthModal } = useAuth();
@@ -85,9 +86,7 @@ export default function AdminListingsPage() {
   if (!isAuthenticated) {
     return (
       <div className="landing-page">
-        <header className="landing-header">
-          <Link href="/" className="landing-brand"><span className="landing-brand-badge">P</span><span className="landing-brand-text"><span>POP</span><span className="landing-brand-sub">Parking on phone</span></span></Link>
-        </header>
+        <LandingHeader />
         <main className="landing-main">
           <div className="placeholder-content">
             <h1 className="landing-title" style={{ fontSize: '1.5rem' }}>Admin Access Required</h1>
@@ -100,10 +99,7 @@ export default function AdminListingsPage() {
 
   return (
     <div className="landing-page">
-      <header className="landing-header">
-        <Link href="/" className="landing-brand"><span className="landing-brand-badge">P</span><span className="landing-brand-text"><span>POP</span><span className="landing-brand-sub">Parking on phone</span></span></Link>
-        <span style={{ fontSize: '11px', fontWeight: 700, padding: '3px 10px', borderRadius: '9999px', background: '#dbeafe', color: '#1e40af' }}>Admin</span>
-      </header>
+      <LandingHeader />
 
       <main className="dashboard-main">
         <div className="dashboard-header">

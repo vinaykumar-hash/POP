@@ -41,6 +41,8 @@ export const DEMO_ACCOUNTS: Record<UserRole, UserProfile> = {
     role: 'USER',
     displayName: 'Arjun Reddy',
     email: 'arjun.driver@parkwise.in',
+    phone: '9876543210',
+    verificationStatus: 'not_submitted',
     createdAt: new Date().toISOString(),
   },
   HOST: {
@@ -48,6 +50,8 @@ export const DEMO_ACCOUNTS: Record<UserRole, UserProfile> = {
     role: 'HOST',
     displayName: 'Priya Sharma (Indiranagar Host)',
     email: 'priya.host@parkwise.in',
+    phone: '9876543211',
+    verificationStatus: 'verified',
     createdAt: new Date().toISOString(),
   },
   ADMIN: {
@@ -55,6 +59,8 @@ export const DEMO_ACCOUNTS: Record<UserRole, UserProfile> = {
     role: 'ADMIN',
     displayName: 'ParkWise Ops Admin',
     email: 'ops@parkwise.in',
+    phone: '9876543212',
+    verificationStatus: 'verified',
     createdAt: new Date().toISOString(),
   },
 };
@@ -119,6 +125,7 @@ export async function cognitoSignIn(email: string, password: string): Promise<Au
     email,
     displayName: email.split('@')[0].replace('.', ' ').replace(/\b\w/g, (l) => l.toUpperCase()),
     role: matchedRole,
+    verificationStatus: matchedRole === 'HOST' || matchedRole === 'ADMIN' ? 'verified' : 'not_submitted',
     createdAt: new Date().toISOString(),
   };
 

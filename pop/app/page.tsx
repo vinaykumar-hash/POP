@@ -3,6 +3,8 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import ActionCard from '@/components/common/ActionCard';
 
+import LandingHeader from '@/components/layout/LandingHeader';
+
 export const metadata: Metadata = {
   title: 'POP — Parking on phone | Bengaluru',
   description:
@@ -12,16 +14,8 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <div className="landing-page">
-      {/* Header */}
-      <header className="landing-header">
-        <Link href="/" className="landing-brand">
-          <span className="landing-brand-badge">P</span>
-          <span className="landing-brand-text">
-            <span>POP</span>
-            <span className="landing-brand-sub">Parking on phone</span>
-          </span>
-        </Link>
-      </header>
+      {/* Header with auth & logout button */}
+      <LandingHeader />
 
       {/* Main Content matching otherPart */}
       <main className="main-content">

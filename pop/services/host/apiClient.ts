@@ -102,11 +102,17 @@ export const hostApiClient = {
   },
 
   async pauseAvailability(listingId: string) {
-    return request(`/api/listings/${listingId}/availability/pause`, { method: 'POST' });
+    return request(`/api/listings/${listingId}/availability`, {
+      method: 'PUT',
+      body: JSON.stringify({ temporarilyUnavailable: true }),
+    });
   },
 
   async resumeAvailability(listingId: string) {
-    return request(`/api/listings/${listingId}/availability/resume`, { method: 'POST' });
+    return request(`/api/listings/${listingId}/availability`, {
+      method: 'PUT',
+      body: JSON.stringify({ temporarilyUnavailable: false }),
+    });
   },
 
   // Resubmit

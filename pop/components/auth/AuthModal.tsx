@@ -1,7 +1,8 @@
 'use client';
 
 // =============================================================================
-// ParkWise — Auth Modal (AWS Cognito & Local Demo)
+// POP — Auth Modal (AWS Cognito & Demo Emulation)
+// Styled with POP / ParkSync Minimalist Monochrome Design System
 // =============================================================================
 
 import React, { useState } from 'react';
@@ -17,6 +18,7 @@ export const AuthModal: React.FC = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [name, setName] = useState('');
+  const [phone, setPhone] = useState('');
   const [error, setError] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -29,12 +31,12 @@ export const AuthModal: React.FC = () => {
 
     try {
       if (mode === 'signin') {
-        await signIn(email, password);
+        await signIn(email.trim(), password);
       } else {
-        await signUp(email, password, role, name);
+        await signUp(email.trim(), password, role, name.trim(), phone.trim());
       }
     } catch (err: unknown) {
-      setError(err instanceof Error ? err.message : 'Authentication failed. Please check credentials.');
+      setError(err instanceof Error ? err.message : 'Authentication failed. Please verify credentials.');
     } finally {
       setIsSubmitting(false);
     }
@@ -46,43 +48,48 @@ export const AuthModal: React.FC = () => {
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/40 backdrop-blur-sm animate-in fade-in duration-200">
-      <div 
-        className="relative w-full max-w-md bg-white border border-slate-200 rounded-2xl shadow-2xl p-6 text-slate-900 overflow-hidden"
-        onClick={(e) => e.stopPropagation()}
-      >
+    <div className="auth-modal-overlay" onClick={closeAuthModal} role="dialog" aria-modal="true">
+      <div className="auth-modal-card" onClick={(e) => e.stopPropagation()}>
         {/* Close Button */}
         <button
           onClick={closeAuthModal}
-          className="absolute top-4 right-4 p-2 text-slate-400 hover:text-slate-700 rounded-lg hover:bg-slate-100 transition-colors"
-          aria-label="Close"
+          className="auth-modal-close"
+          aria-label="Close authentication modal"
+          type="button"
         >
           <IconClose size={16} />
         </button>
 
         {/* Header */}
-        <div className="mb-6 text-center">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-50 border border-cyan-200 text-cyan-700 text-xs font-semibold mb-2">
-            <span>{isAwsCognito ? 'AWS Cognito Production' : 'Local Emulation / Demo'}</span>
+        <div className="auth-header">
+          <span className="auth-brand-badge" aria-hidden="true">P</span>
+          <div className="auth-cognito-badge">
+            <span
+              className="auth-cognito-dot"
+              style={{ backgroundColor: isAwsCognito ? '#10b981' : '#737373' }}
+              aria-hidden="true"
+            />
+            <span>{isAwsCognito ? 'AWS Cognito Active' : 'Local Demo Emulation'}</span>
           </div>
-          <h2 className="text-2xl font-bold tracking-tight text-slate-900">
+          <h2 className="auth-title">
             {mode === 'signin' ? 'Welcome to POP' : 'Create POP Account'}
           </h2>
-          <p className="text-xs text-slate-500 mt-1">
-            Discover smart open parking or list your unused space in Bengaluru
+          <p className="auth-subtitle">
+            {mode === 'signin'
+              ? 'Sign in to access your bookings, locations, and host management.'
+              : 'Register to find spaces or list your unused parking space in Bengaluru.'}
           </p>
         </div>
 
         {/* 1-Click Quick Demo Evaluation */}
-        <div className="mb-6 p-3 bg-slate-50 border border-slate-200 rounded-xl">
-          <div className="text-[11px] font-semibold text-slate-500 mb-2 uppercase tracking-wider text-center">
-            Quick 1-Click Demo Evaluation
-          </div>
-          <div className="grid grid-cols-2 gap-2">
+        <div className="auth-demo-section">
+          <div className="auth-demo-title">Quick 1-Click Evaluation Accounts</div>
+          <div className="auth-demo-grid">
             <button
               type="button"
               onClick={() => handleQuickDemo('USER')}
-              className="px-3 py-2 text-xs font-semibold rounded-lg bg-cyan-50 hover:bg-cyan-100 border border-cyan-200 text-cyan-800 transition-all flex items-center justify-center gap-1.5 active:scale-95"
+              className="auth-demo-btn"
+              id="demo-btn-driver"
             >
               <IconCar size={14} />
               <span>Arjun (Driver)</span>
@@ -90,7 +97,8 @@ export const AuthModal: React.FC = () => {
             <button
               type="button"
               onClick={() => handleQuickDemo('HOST')}
-              className="px-3 py-2 text-xs font-semibold rounded-lg bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 text-emerald-800 transition-all flex items-center justify-center gap-1.5 active:scale-95"
+              className="auth-demo-btn"
+              id="demo-btn-host"
             >
               <IconHome size={14} />
               <span>Priya (Host)</span>
@@ -98,133 +106,156 @@ export const AuthModal: React.FC = () => {
           </div>
         </div>
 
-        {/* Mode switcher tabs */}
-        <div className="flex border-b border-slate-200 mb-4">
+        {/* Mode Switcher Tabs */}
+        <div className="auth-tabs" role="tablist">
           <button
             type="button"
+            role="tab"
+            aria-selected={mode === 'signin'}
             onClick={() => { setMode('signin'); setError(null); }}
-            className={`flex-1 py-2 text-sm font-semibold border-b-2 transition-all ${
-              mode === 'signin'
-                ? 'border-cyan-600 text-cyan-600'
-                : 'border-transparent text-slate-500 hover:text-slate-800'
-            }`}
+            className={`auth-tab ${mode === 'signin' ? 'active' : ''}`}
+            id="tab-signin"
           >
             Sign In
           </button>
           <button
             type="button"
+            role="tab"
+            aria-selected={mode === 'signup'}
             onClick={() => { setMode('signup'); setError(null); }}
-            className={`flex-1 py-2 text-sm font-semibold border-b-2 transition-all ${
-              mode === 'signup'
-                ? 'border-cyan-600 text-cyan-600'
-                : 'border-transparent text-slate-500 hover:text-slate-800'
-            }`}
+            className={`auth-tab ${mode === 'signup' ? 'active' : ''}`}
+            id="tab-signup"
           >
-            Register
+            Create Account
           </button>
         </div>
 
         {/* Error Alert */}
         {error && (
-          <div className="mb-4 p-3 bg-red-50 border border-red-200 rounded-lg text-red-600 text-xs flex items-center gap-2">
-            <IconInfo size={14} style={{ flexShrink: 0 }} />
+          <div className="auth-error-banner" role="alert">
+            <IconInfo size={16} style={{ flexShrink: 0 }} />
             <span>{error}</span>
           </div>
         )}
 
         {/* Form */}
-        <form onSubmit={handleSubmit} className="space-y-3.5">
+        <form onSubmit={handleSubmit} className="auth-form" noValidate>
           {mode === 'signup' && (
             <>
-              <div>
-                <label className="block text-xs font-medium text-slate-700 mb-1">
-                  Full Name
+              {/* Full Name */}
+              <div className="form-group">
+                <label className="form-label" htmlFor="modal-name">
+                  Full Name <span className="required-star" aria-hidden="true">*</span>
                 </label>
                 <input
+                  id="modal-name"
                   type="text"
                   required
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   placeholder="e.g. Arjun Reddy"
-                  className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded-lg text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:border-cyan-500 focus:bg-white transition-colors"
+                  className="form-input"
+                  autoComplete="name"
                 />
               </div>
 
-              <div>
-                <label className="block text-xs font-medium text-slate-700 mb-1">
-                  I want to use POP as:
+              {/* Role Selection */}
+              <div className="form-group">
+                <label className="form-label">
+                  Account Type <span className="required-star" aria-hidden="true">*</span>
                 </label>
-                <div className="grid grid-cols-2 gap-2">
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.5rem' }}>
                   <button
                     type="button"
                     onClick={() => setRole('USER')}
-                    className={`py-2 px-3 rounded-lg text-xs font-medium border flex items-center justify-center gap-1.5 transition-all ${
-                      role === 'USER'
-                        ? 'bg-cyan-50 border-cyan-500 text-cyan-800 font-semibold'
-                        : 'bg-slate-50 border-slate-200 text-slate-600 hover:bg-slate-100'
-                    }`}
+                    className={`btn ${role === 'USER' ? 'btn-primary' : 'btn-secondary'}`}
+                    style={{ fontSize: '0.825rem', padding: '0.6rem 0.5rem' }}
                   >
                     <IconCar size={14} />
-                    <span>Driver (Find Parking)</span>
+                    <span>Driver</span>
                   </button>
                   <button
                     type="button"
                     onClick={() => setRole('HOST')}
-                    className={`py-2 px-3 rounded-lg text-xs font-medium border flex items-center justify-center gap-1.5 transition-all ${
-                      role === 'HOST'
-                        ? 'bg-emerald-50 border-emerald-500 text-emerald-800 font-semibold'
-                        : 'bg-slate-50 border-slate-200 text-slate-600 hover:bg-slate-100'
-                    }`}
+                    className={`btn ${role === 'HOST' ? 'btn-primary' : 'btn-secondary'}`}
+                    style={{ fontSize: '0.825rem', padding: '0.6rem 0.5rem' }}
                   >
                     <IconHome size={14} />
-                    <span>Host (List Parking)</span>
+                    <span>Host (List Spot)</span>
                   </button>
+                </div>
+              </div>
+
+              {/* Phone Number */}
+              <div className="form-group">
+                <label className="form-label" htmlFor="modal-phone">
+                  Phone Number
+                </label>
+                <div className="phone-input-wrapper">
+                  <span className="phone-prefix">+91</span>
+                  <input
+                    id="modal-phone"
+                    type="tel"
+                    value={phone}
+                    onChange={(e) => setPhone(e.target.value)}
+                    placeholder="9876543210"
+                    className="form-input phone-field"
+                    autoComplete="tel"
+                  />
                 </div>
               </div>
             </>
           )}
 
-          <div>
-            <label className="block text-xs font-medium text-slate-700 mb-1">
-              Email Address
+          {/* Email */}
+          <div className="form-group">
+            <label className="form-label" htmlFor="modal-email">
+              Email Address <span className="required-star" aria-hidden="true">*</span>
             </label>
             <input
+              id="modal-email"
               type="email"
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="you@domain.com"
-              className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded-lg text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:border-cyan-500 focus:bg-white transition-colors"
+              placeholder="you@example.com"
+              className="form-input"
+              autoComplete="email"
             />
           </div>
 
-          <div>
-            <label className="block text-xs font-medium text-slate-700 mb-1">
-              Password
+          {/* Password */}
+          <div className="form-group">
+            <label className="form-label" htmlFor="modal-password">
+              Password <span className="required-star" aria-hidden="true">*</span>
             </label>
             <input
+              id="modal-password"
               type="password"
               required
               minLength={6}
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               placeholder="••••••••"
-              className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded-lg text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:border-cyan-500 focus:bg-white transition-colors"
+              className="form-input"
+              autoComplete={mode === 'signin' ? 'current-password' : 'new-password'}
             />
           </div>
 
           <button
             type="submit"
             disabled={isSubmitting}
-            className="w-full mt-2 py-2.5 px-4 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white text-sm font-semibold rounded-lg shadow-md transition-all disabled:opacity-50 active:scale-[0.98]"
+            className="btn btn-primary btn-full btn-large"
+            id="modal-submit-btn"
+            style={{ marginTop: '0.75rem' }}
           >
             {isSubmitting ? (
-              <span className="flex items-center justify-center gap-2">
-                <span className="w-3.5 h-3.5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+              <span style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <span className="loading-spinner" style={{ width: '18px', height: '18px', borderWidth: '2px' }} />
                 Authenticating...
               </span>
             ) : mode === 'signin' ? (
-              'Sign In with AWS Cognito'
+              'Sign In'
             ) : (
               'Create Account'
             )}

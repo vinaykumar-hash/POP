@@ -24,7 +24,7 @@ interface AuthContextType {
   openAuthModal: (initialRole?: UserRole) => void;
   closeAuthModal: () => void;
   signIn: (email: string, pass: string) => Promise<void>;
-  signUp: (email: string, pass: string, role: UserRole, name?: string) => Promise<void>;
+  signUp: (email: string, pass: string, role?: UserRole, name?: string, phone?: string) => Promise<void>;
   signOut: () => Promise<void>;
   switchDemoUser: (role: UserRole) => void;
 }
@@ -89,12 +89,34 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     }
   };
 
-  const signUp = async (email: string, pass: string, role: UserRole, name?: string) => {
+  const signUp = async (email: string, pass: string, role: UserRole = 'USER', name?: string, phone?: string) => {
     setIsLoading(true);
     try {
       await cognitoSignUp(email, pass, role, name);
       // Auto sign in for demo convenience
       await signIn(email, pass);
+      // If phone provided, update user in state & storage
+      if (phone) {
+        setUser((prev) => {
+          if (!prev) return null;
+          const updated = {
+            ...prev,
+            phone,
+            verificationStatus: (role === 'HOST' ? 'verified' : prev.verificationStatus) as 'verified' | 'pending' | 'not_submitted',
+          };
+          try {
+            const stored = localStorage.getItem(STORAGE_KEY);
+            if (stored) {
+              const parsed = JSON.parse(stored);
+              parsed.user = updated;
+              localStorage.setItem(STORAGE_KEY, JSON.stringify(parsed));
+            }
+          } catch {
+            // ignore
+          }
+          return updated;
+        });
+      }
     } finally {
       setIsLoading(false);
     }

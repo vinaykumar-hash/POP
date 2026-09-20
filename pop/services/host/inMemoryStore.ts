@@ -35,11 +35,15 @@ export function extractUserId(authHeader: string | null): string | null {
 
 // Host Profile Operations
 export function getHostProfile(userId: string) {
-  return hostProfiles.get(userId) || {
-    userId,
-    verification: { status: 'not_submitted' },
-    createdAt: new Date().toISOString(),
-  };
+  if (!hostProfiles.has(userId)) {
+    const isHost = userId.toLowerCase().includes('host') || userId === 'usr_demo_host_01' || userId === 'usr_demo_admin_01';
+    hostProfiles.set(userId, {
+      userId,
+      verification: { status: isHost ? 'verified' : 'not_submitted' },
+      createdAt: new Date().toISOString(),
+    });
+  }
+  return hostProfiles.get(userId)!;
 }
 
 export function updateHostProfile(userId: string, data: Record<string, unknown>) {
@@ -156,3 +160,37 @@ export function createBooking(data: Record<string, unknown>) {
   bookings.set(bookingId, booking);
   return booking;
 }
+
+export function cancelBooking(bookingId: string, _userId: string) {
+  const booking = bookings.get(bookingId);
+  if (!booking) return null;
+  booking.status = 'cancelled';
+  booking.cancelledAt = new Date().toISOString();
+  booking.updatedAt = new Date().toISOString();
+  return booking;
+}
+
+export function startSession(bookingId: string, _userId: string) {
+  const booking = bookings.get(bookingId);
+  if (!booking) return null;
+  booking.session = {
+    ...((booking.session as Record<string, unknown>) || {}),
+    startedAt: new Date().toISOString(),
+  };
+  booking.updatedAt = new Date().toISOString();
+  return booking;
+}
+
+export function completeBooking(bookingId: string, _userId: string) {
+  const booking = bookings.get(bookingId);
+  if (!booking) return null;
+  booking.status = 'completed';
+  booking.completedAt = new Date().toISOString();
+  booking.session = {
+    ...((booking.session as Record<string, unknown>) || {}),
+    completedAt: new Date().toISOString(),
+  };
+  booking.updatedAt = new Date().toISOString();
+  return booking;
+}
+

@@ -165,9 +165,10 @@ function AuthNavSection() {
   const roleLabel = role === 'HOST' ? 'Host' : role === 'ADMIN' ? 'Admin' : 'Driver';
 
   return (
-    <div style={{ position: 'relative' }}>
-      <button
-        onClick={() => setShowDropdown((prev) => !prev)}
+    <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+      <div style={{ position: 'relative' }}>
+        <button
+          onClick={() => setShowDropdown((prev) => !prev)}
         style={{
           display: 'flex',
           alignItems: 'center',
@@ -306,6 +307,18 @@ function AuthNavSection() {
           </div>
         </div>
       )}
+      </div>
+
+      <button
+        type="button"
+        id="navbar-direct-signout-btn"
+        className="btn-nav-signout"
+        onClick={() => signOut()}
+        style={{ fontSize: '11px', padding: '4px 10px' }}
+        aria-label="Sign out"
+      >
+        Sign Out
+      </button>
     </div>
   );
 }

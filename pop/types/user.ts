@@ -41,5 +41,8 @@ export interface UserProfile {
   role: UserRole;
   displayName?: string;
   email?: string;
+  phone?: string;
+  verificationStatus?: 'verified' | 'pending' | 'not_submitted';
   createdAt: string;
 }
+

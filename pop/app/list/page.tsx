@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/contexts/AuthContext';
 import ActionCard from '@/components/common/ActionCard';
+import LandingHeader from '@/components/layout/LandingHeader';
 
 export default function ListParkingPage() {
   const router = useRouter();
@@ -18,15 +19,7 @@ export default function ListParkingPage() {
 
   return (
     <div className="landing-page">
-      <header className="landing-header">
-        <Link href="/" className="landing-brand">
-          <span className="landing-brand-badge">P</span>
-          <span className="landing-brand-text">
-            <span>POP</span>
-            <span className="landing-brand-sub">Parking on phone</span>
-          </span>
-        </Link>
-      </header>
+      <LandingHeader />
 
       <main className="main-content">
         <div className="back-navigation">

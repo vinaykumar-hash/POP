@@ -14,16 +14,58 @@ import Step4ParkingDetails from '@/components/host/onboarding/Step4ParkingDetail
 import Step5PricingAvailability from '@/components/host/onboarding/Step5PricingAvailability';
 import Step6Review from '@/components/host/onboarding/Step6Review';
 import SubmissionSuccess from '@/components/host/onboarding/SubmissionSuccess';
+import LandingHeader from '@/components/layout/LandingHeader';
 
 export default function HostNewPage() {
   const router = useRouter();
   const { user, isAuthenticated, openAuthModal } = useAuth();
 
-  const [currentStep, setCurrentStep] = useState(1);
-  const [maxCompletedStep, setMaxCompletedStep] = useState(0);
+  const initialStatus = user?.verificationStatus || (user?.role === 'HOST' ? 'verified' : 'not_submitted');
+  const initialHasSubmitted = initialStatus === 'verified' || initialStatus === 'pending';
+
+  const [currentStep, setCurrentStep] = useState<number>(() => (initialHasSubmitted ? 2 : 1));
+  const [maxCompletedStep, setMaxCompletedStep] = useState<number>(() => (initialHasSubmitted ? 1 : 0));
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
+  const [hostProfile, setHostProfile] = useState<Record<string, unknown> | null>(null);
+
+  // Derive verification states from profile or active user
+  const effectiveStatus = (hostProfile?.verification as Record<string, unknown>)?.status as string || user?.verificationStatus || (user?.role === 'HOST' ? 'verified' : 'not_submitted');
+  const isHostVerified = effectiveStatus === 'verified';
+  const isHostPending = effectiveStatus === 'pending';
+  const hasSubmittedVerification = isHostVerified || isHostPending;
+
+  // Load host profile to verify account status
+  useEffect(() => {
+    let isMounted = true;
+    async function loadProfile() {
+      if (user?.id) {
+        try {
+          const profile = await hostApiClient.getHostProfile() as Record<string, unknown>;
+          if (isMounted && profile) {
+            setHostProfile(profile);
+            const status = (profile.verification as Record<string, unknown>)?.status as string || (user.role === 'HOST' ? 'verified' : 'not_submitted');
+            if (status === 'verified' || status === 'pending') {
+              setListingData((prev) => ({
+                ...prev,
+                verification: {
+                  ...prev.verification,
+                  ownershipConfirmed: true,
+                },
+              }));
+              setCurrentStep((prev) => (prev === 1 ? 2 : prev));
+              setMaxCompletedStep((prev) => Math.max(prev, 1));
+            }
+          }
+        } catch (err) {
+          console.error('Failed to load host profile in onboarding:', err);
+        }
+      }
+    }
+    loadProfile();
+    return () => { isMounted = false; };
+  }, [user?.id, user?.role]);
 
   // Initialize listing data with authenticated host identity if available
   const [listingData, setListingData] = useState<ParkingListing>(() => ({
@@ -33,7 +75,11 @@ export default function HostNewPage() {
       ...INITIAL_LISTING_STATE.host,
       name: user?.displayName || '',
       email: user?.email || '',
-      phone: '',
+      phone: user?.phone || '',
+    },
+    verification: {
+      ...INITIAL_LISTING_STATE.verification,
+      ownershipConfirmed: initialHasSubmitted,
     },
   }));
 
@@ -130,20 +176,13 @@ export default function HostNewPage() {
 
   return (
     <div className="landing-page">
-      <header className="landing-header">
-        <Link href="/" className="landing-brand">
-          <span className="landing-brand-badge">P</span>
-          <span className="landing-brand-text">
-            <span>POP</span>
-            <span className="landing-brand-sub">Parking on phone</span>
-          </span>
-        </Link>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+      <LandingHeader
+        rightElement={
           <Link href="/host/dashboard" className="btn-back" style={{ textDecoration: 'none' }}>
             Dashboard
           </Link>
-        </div>
-      </header>
+        }
+      />
 
       <main className="main-content">
         {isSubmitted ? (
@@ -164,6 +203,9 @@ export default function HostNewPage() {
                   data={listingData}
                   onChange={setListingData}
                   onContinue={handleNextStep}
+                  verificationStatus={effectiveStatus}
+                  hasSubmittedVerification={hasSubmittedVerification}
+                  isHostVerified={isHostVerified}
                 />
               )}
 
