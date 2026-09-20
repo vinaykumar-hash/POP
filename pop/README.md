@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# POP (Parking on Phone) 🚗📱
 
-## Getting Started
+> **Intelligent Urban Parking Availability Prediction & Peer-to-Peer Parking Marketplace**
 
-First, run the development server:
+[![Next.js](https://img.shields.io/badge/Next.js-16.3.5-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19.0-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![AWS DynamoDB](https://img.shields.io/badge/Amazon_DynamoDB-Serverless_NoSQL-4053D6?style=for-the-badge&logo=amazondynamodb)](https://aws.amazon.com/dynamodb/)
+[![Amazon Cognito](https://img.shields.io/badge/Amazon_Cognito-Auth_%26_Identity-FF9900?style=for-the-badge&logo=amazoncognito)](https://aws.amazon.com/cognito/)
+[![AWS Amplify](https://img.shields.io/badge/AWS_Amplify-Hosting_%26_CI%2FCD-FF9900?style=for-the-badge&logo=awsamplify)](https://aws.amazon.com/amplify/)
 
+---
+
+## 📌 Overview
+
+**POP (Parking on Phone)** is a full-stack Next.js 16 application engineered with an enterprise-ready, dual-mode architecture:
+1. **Live On-Street Parking Intelligence**: Crowd-sourced probabilistic spot prediction with turn-by-turn navigation.
+2. **Private Rental Marketplace**: Discover, reserve, and unlock verified private parking spaces with instant digital gate passes.
+
+For complete project documentation, see the [Root README](../README.md) and [Deployment Guide](./DEPLOYMENT_GUIDE.md).
+
+---
+
+## 🚀 Quick Start
+
+### 1. Install Dependencies
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Configure Environment (Optional)
+The project includes automatic fallbacks so you can run it immediately without setting up AWS:
+```bash
+cp .env.example .env.local
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Run Development Server
+```bash
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 4. Build for Production
+```bash
+npm run build
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🌐 Main Routes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `/`: Landing page
+- `/find`: Street parking with live probability estimator
+- `/find/rent`: Peer-to-peer private parking marketplace & booking
+- `/host/new`: 5-step parking space onboarding wizard
+- `/host/dashboard`: Host management portal (listings & bookings)
+- `/admin/listings`: Admin verification dashboard
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+MIT License
