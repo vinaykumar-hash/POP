@@ -358,4 +358,192 @@ export const listingRepository = {
       return inMemory.updateHostProfile(userId, data);
     }
   },
+  /**
+   * Public discovery of available rent listings for drivers
+   */
+  async getPublicRentListings(filters?: {
+    query?: string;
+    vehicleType?: string;
+    parkingType?: string;
+    maxHourly?: number;
+  }): Promise<ParkingListing[]> {
+    const docClient = getDynamoDocClient();
+    if (!docClient || !isDynamoConfigured()) {
+      return inMemory.getPublicRentListings(filters);
+    }
+
+    try {
+      // Query approved listings from DynamoDB
+      const res = await docClient.send(
+        new ScanCommand({
+          TableName: TABLES.listings,
+          FilterExpression: '#st = :s',
+          ExpressionAttributeNames: {
+            '#st': 'status',
+          },
+          ExpressionAttributeValues: {
+            ':s': 'approved',
+          },
+        })
+      );
+
+      let items = (res.Items || []) as ParkingListing[];
+
+      // If DynamoDB is newly created and has 0 approved listings, combine with initial seed listings
+      if (items.length === 0) {
+        items = inMemory.getPublicRentListings(filters);
+        return items;
+      }
+
+      if (filters?.query) {
+        const q = filters.query.toLowerCase().trim();
+        items = items.filter(
+          (l) =>
+            l.location?.locality?.toLowerCase().includes(q) ||
+            l.location?.address?.toLowerCase().includes(q) ||
+            l.location?.city?.toLowerCase().includes(q) ||
+            l.parkingDetails?.features?.some((f) => f.toLowerCase().includes(q))
+        );
+      }
+
+      if (filters?.vehicleType && filters.vehicleType !== 'all') {
+        items = items.filter(
+          (l) =>
+            l.parkingDetails?.vehicleType?.toLowerCase() === filters.vehicleType?.toLowerCase() ||
+            l.parkingDetails?.vehicleType?.toLowerCase() === 'both'
+        );
+      }
+
+      if (filters?.parkingType && filters.parkingType !== 'all') {
+        items = items.filter(
+          (l) => l.parkingDetails?.parkingType?.toLowerCase() === filters.parkingType?.toLowerCase()
+        );
+      }
+
+      if (filters?.maxHourly && !isNaN(filters.maxHourly)) {
+        items = items.filter((l) => {
+          const rate = parseFloat(l.pricing?.hourly || '0');
+          return rate <= filters.maxHourly!;
+        });
+      }
+
+      return items;
+    } catch (err) {
+      console.warn('[ListingRepository] DynamoDB getPublicRentListings error, using local fallback:', err);
+      return inMemory.getPublicRentListings(filters);
+    }
+  },
+
+  /**
+   * Create a booking reservation
+   */
+  async createBooking(data: Record<string, unknown>): Promise<Record<string, unknown>> {
+    const docClient = getDynamoDocClient();
+    if (!docClient || !isDynamoConfigured()) {
+      return inMemory.createBooking(data);
+    }
+
+    const bookingId = `booking_${Date.now()}_${Math.floor(Math.random() * 1000)}`;
+    const booking = {
+      ...data,
+      bookingId,
+      status: 'confirmed',
+      createdAt: new Date().toISOString(),
+      updatedAt: new Date().toISOString(),
+    };
+
+    try {
+      await docClient.send(
+        new PutCommand({
+          TableName: TABLES.bookings,
+          Item: booking,
+        })
+      );
+      return booking;
+    } catch (err) {
+      console.warn('[ListingRepository] DynamoDB createBooking error, using local fallback:', err);
+      return inMemory.createBooking(data);
+    }
+  },
+
+  /**
+   * Get all bookings for a renter
+   */
+  async getUserBookings(userId: string): Promise<Record<string, unknown>[]> {
+    const docClient = getDynamoDocClient();
+    if (!docClient || !isDynamoConfigured()) {
+      return inMemory.getUserBookings(userId);
+    }
+
+    try {
+      // Query with ByUserIndex or Scan
+      try {
+        const queryRes = await docClient.send(
+          new QueryCommand({
+            TableName: TABLES.bookings,
+            IndexName: 'ByUserIndex',
+            KeyConditionExpression: 'userId = :u',
+            ExpressionAttributeValues: {
+              ':u': userId,
+            },
+          })
+        );
+        if (queryRes.Items && queryRes.Items.length > 0) {
+          return queryRes.Items as Record<string, unknown>[];
+        }
+      } catch {
+        // Fall back to scan
+      }
+
+      const scanRes = await docClient.send(
+        new ScanCommand({
+          TableName: TABLES.bookings,
+          FilterExpression: 'renterId = :r OR userId = :r',
+          ExpressionAttributeValues: {
+            ':r': userId,
+          },
+        })
+      );
+      return (scanRes.Items || []) as Record<string, unknown>[];
+    } catch (err) {
+      console.warn('[ListingRepository] DynamoDB getUserBookings error, using local fallback:', err);
+      return inMemory.getUserBookings(userId);
+    }
+  },
+
+  /**
+   * Cancel booking for user
+   */
+  async cancelUserBooking(bookingId: string, userId: string): Promise<Record<string, unknown> | null> {
+    const docClient = getDynamoDocClient();
+    if (!docClient || !isDynamoConfigured()) {
+      return inMemory.cancelBooking(bookingId, userId);
+    }
+
+    try {
+      const getRes = await docClient.send(
+        new GetCommand({
+          TableName: TABLES.bookings,
+          Key: { bookingId },
+        })
+      );
+      const booking = getRes.Item as Record<string, unknown> | undefined;
+      if (!booking) return inMemory.cancelBooking(bookingId, userId);
+
+      booking.status = 'cancelled';
+      booking.cancelledAt = new Date().toISOString();
+      booking.updatedAt = new Date().toISOString();
+
+      await docClient.send(
+        new PutCommand({
+          TableName: TABLES.bookings,
+          Item: booking,
+        })
+      );
+      return booking;
+    } catch (err) {
+      console.warn('[ListingRepository] DynamoDB cancelUserBooking error, using fallback:', err);
+      return inMemory.cancelBooking(bookingId, userId);
+    }
+  },
 };
